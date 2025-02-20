@@ -3,6 +3,10 @@
         "name": {
             "ua": "Антоніна Здебська",
             "en": "Antonina Zdebska"
+        },
+        "about": {
+            "ua": "Відповідальна та працьовита, завжди прагну вдосконалюватися та дізнаватися нове. Добре зосереджуюсь на завданнях та виконую їх з максимальною ретельністю. Доброзичлива й дружелюбна, позитивна, не конфліктна.",
+            "en": "I am responsible and hardworking, always striving to improve and learn new things. I focus well on tasks and perform them with the utmost care. Furthermore, I am friendly, positive and non-conflictive."
         }
     },
     "contacts": {
@@ -10,5 +14,35 @@
         "facebook": "https://www.facebook.com/tonya.zdebska",
         "linkedin": "http://www.linkedin.com/in/antonina-zdebska-038baa351",
         "github": "https://github.com/AntoninaZz"
-    }
+    },
+    "education": [
+        {
+            "school": {
+                "ua": "Київський столичний університет імені Бориса Грінченка",
+                "en": "Borys Grinchenko Kyiv Metropolitan University"
+            },
+            "degree": {
+                "ua": "Магістр комп'ютерних наук",
+                "en": "Master's degree in Computer Science"
+            },
+            "years": {
+                "ua": "вер 2023 – гру 2024",
+                "en": "sep 2023 – dec 2024"
+            }
+        },
+        {
+            "school": {
+                "ua": "Київський столичний університет імені Бориса Грінченка",
+                "en": "Borys Grinchenko Kyiv Metropolitan University"
+            },
+            "degree": {
+                "ua": "Бакалавр комп'ютерних наук",
+                "en": "Bachelor's degree in Computer Science"
+            },
+            "years": {
+                "ua": "вер 2019 – чер 2023",
+                "en": "sep 2019 – jun 2023"
+            }
+        }
+    ]
 }
