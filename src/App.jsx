@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-        <img src={"assets/react.svg"} alt="logo"/>
+        <img src={"./assets/react.svg"} alt="logo"/>
         <p>hello world!</p>
       </div>
     </>
