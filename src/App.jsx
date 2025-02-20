@@ -1,26 +1,28 @@
-// import { useState } from 'react'
+import { useState } from 'react'
 import './App.css'
 import data from '../data.json'
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const [lang, setLang] = useState('en');
 
   return (
     <>
-      <MainInfo />
+      <button onClick={() => setLang(lang == 'ua' ? 'en' : 'ua')}>{lang == 'ua' ? "🇬🇧" : "🇺🇦"}</button>
+      <MainInfo language={lang} />
     </>
   )
 }
 
-function MainInfo() {
+function MainInfo({ language }) {
+  console.log(language)
   return (
     <>
       <div>
         <img src="/profile-photo.jpg" alt="Antonina Zdebska profile photo" width={100} />
-        <p>Antonina Zdebska</p>
+        <p>{data.profile.name[language]}</p>
         <Contact type="linkedin" />
-        <Contact type="instagram" />
         <Contact type="github" />
+        <Contact type="instagram" />
         <Contact type="facebook" />
       </div>
     </>

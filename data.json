@@ -1,5 +1,10 @@
 {
-    "profile": {},
+    "profile": {
+        "name": {
+            "ua": "Антоніна Здебська",
+            "en": "Antonina Zdebska"
+        }
+    },
     "contacts": {
         "instagram": "https://www.instagram.com/ant0ninazzz/",
         "facebook": "https://www.facebook.com/tonya.zdebska",
