@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <button onClick={() => setLang(lang == 'ua' ? 'en' : 'ua')}>{lang == 'ua' ? "🇬🇧" : "🇺🇦"}</button>
+      <button onClick={() => setLang(lang == 'ua' ? 'en' : 'ua')}>{lang == 'ua' ? <img src="/language-ua.svg" alt="english language" width={40} /> : <img src="/language-en.svg" alt="ukrainian language" width={40} />}</button>
       <MainInfo language={lang} />
       <section>
         <h2>{lang == 'ua' ? "про себе" : "about"}</h2>
