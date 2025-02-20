@@ -6,12 +6,20 @@ function App() {
 
   return (
     <>
+      <MainInfo />
+    </>
+  )
+}
+
+function MainInfo() {
+  return (
+    <>
       <div>
-        <img src={"/vite.svg"} alt="vite logo"/>
+        <img src={"/vite.svg"} alt="vite logo" />
         <p>hello world!</p>
       </div>
     </>
-  )
+  );
 }
 
 export default App
