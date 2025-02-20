@@ -15,8 +15,8 @@ function MainInfo() {
   return (
     <>
       <div>
-        <img src={"/vite.svg"} alt="vite logo" />
-        <p>hello world!</p>
+        <img src={"/profile-photo.jpg"} alt="Antonina Zdebska profile photo" />
+        <p>Antonina Zdebska</p>
       </div>
     </>
   );
