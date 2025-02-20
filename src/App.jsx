@@ -15,7 +15,7 @@ function MainInfo() {
   return (
     <>
       <div>
-        <img src={"/profile-photo.jpg"} alt="Antonina Zdebska profile photo" />
+        <img src={"/profile-photo.jpg"} alt="Antonina Zdebska profile photo" width={50}/>
         <p>Antonina Zdebska</p>
       </div>
     </>
