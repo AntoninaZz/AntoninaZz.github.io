@@ -28,6 +28,9 @@ function App() {
         {data.education.map((ed) => (<Education info={ed} lang={lang} />))}
         {data.achievements.map((a) => (<Achievement info={a} lang={lang} />))}
       </section>
+      <section>Certificates</section>
+      <section>Projects</section>
+      <section>Contact</section>
     </>
   )
 }
