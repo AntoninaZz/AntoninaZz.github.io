@@ -4,6 +4,7 @@
             "ua": "Антоніна Здебська",
             "en": "Antonina Zdebska"
         },
+        "birthday": "2002-06-20",
         "position": {
             "ua": "Розробник програмного забезпечення",
             "en": "Software Developer"
@@ -304,5 +305,27 @@
                 "level": 2
             }
         ]
-    }
+    },
+    "languages": [
+        {
+            "language": {
+                "ua": "Українська",
+                "en": "Ukrainian"
+            },
+            "level": {
+                "ua": "рідна",
+                "en": "native"
+            }
+        },
+        {
+            "language": {
+                "ua": "Англійська",
+                "en": "English"
+            },
+            "level": {
+                "ua": "C1",
+                "en": "C1"
+            }
+        }
+    ]
 }
