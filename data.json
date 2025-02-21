@@ -68,6 +68,35 @@
             "en": "I completed an internship at SoftServe: a 2-week internship in React in 2023 and a 4-week internship in React, ASP.NET in 2024."
         }
     ],
+    "certificates": [
+        {
+            "title": {
+                "ua": "Сертифікат за 10 місце серед команд північного регіону України у міжнародній студентській олімпіаді з програмування (ICPC)",
+                "en": "Certificate of Achievement in the 2023 ICPC Ukraine Northern Contest"
+            },
+            "organization": "ICPC - International Collegiate Programming Contest",
+            "date": "2023-09-29",
+            "src": ""
+        },
+        {
+            "title": {
+                "ua": "Сертифікат про досягнення у регіональній олімпіаді Південно-Східної Європи Міжнародної студентської олімпіади з програмування 2022 року",
+                "en": "Certificate of Achievement in the 2022 ICPC Southeastern Europe Regional Contest"
+            },
+            "organization": "ICPC - International Collegiate Programming Contest",
+            "date": "2022-12-10",
+            "src": ""
+        },
+        {
+            "title": {
+                "ua": "Сертифікат про закінчення курсу CCNA Маршрутизація та комутація: вступ до мереж",
+                "en": "Certificate of Completion CCNA Routing and Switching: Introduction to Networks"
+            },
+            "organization": "Cisco Networking Academy",
+            "date": "2021-08-31",
+            "src": ""
+        }
+    ],
     "skills": {
         "soft": [
             {

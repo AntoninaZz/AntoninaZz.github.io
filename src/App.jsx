@@ -25,7 +25,9 @@ function App() {
           {data.achievements.map((a) => (<Achievement info={a} lang={lang} />))}
         </>
       } />
-      <Section title="Certificates" />
+      <Section title="Certificates" contents={
+        data.certificates.map((certificate) => (<Certificate info={certificate} lang={lang} />))
+      }/>
       <Section title="Projects" />
       <Section title="Contact" />
     </>
@@ -109,6 +111,16 @@ function SubSection({ title, contents }) {
     <>
       <h3>{title}</h3>
       <div>{contents}</div>
+    </>
+  );
+}
+
+function Certificate({info, lang}) {
+  return(
+    <>
+    <h3>{info.title[lang]}</h3>
+    <h4>{info.organization}</h4>
+    <p>{new Date(info.date).toString()}</p>
     </>
   );
 }
