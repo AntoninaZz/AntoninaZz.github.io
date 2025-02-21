@@ -15,12 +15,9 @@ function App() {
       </section>
       <section>
         <h2>{lang == 'ua' ? "Навички" : "Skills"}</h2>
-        <h3>Soft</h3>
-        <div>{data.skills.soft.map((skill) => (<SoftSkill info={skill} lang={lang} />))}</div>
-        <h3>Hard</h3>
-        <div>{data.skills.hard.map((skill) => (<HardSkill info={skill} />))}</div>
-        <h3>{lang == 'ua' ? "Мови" : "Languages"}</h3>
-        <div>{data.languages.map((language) => (<Language info={language} lang={lang} />))}</div>
+        <SubSection title="Soft" contents={data.skills.soft.map((skill) => (<SoftSkill info={skill} lang={lang} />))} />
+        <SubSection title="Hard" contents={data.skills.hard.map((skill) => (<HardSkill info={skill} />))} />
+        <SubSection title={lang == 'ua' ? "Мови" : "Languages"} contents={data.languages.map((language) => (<Language info={language} lang={lang} />))} />
       </section>
       <section>
         <h2>{lang == 'ua' ? "Освіта" : "Education"}</h2>
@@ -94,6 +91,15 @@ function Achievement({ info, lang }) {
   return (
     <>
       <p>{info[lang]}</p>
+    </>
+  );
+}
+
+function SubSection({title, contents}){
+  return(
+    <>
+    <h3>{title}</h3>
+    <div>{contents}</div>
     </>
   );
 }
