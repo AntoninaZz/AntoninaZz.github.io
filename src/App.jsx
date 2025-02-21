@@ -121,6 +121,7 @@ function Certificate({info, lang}) {
     <h3>{info.title[lang]}</h3>
     <h4>{info.organization}</h4>
     <p>{new Date(info.date).toString()}</p>
+    <img src={info.src} alt={info.title[lang]} width={100} />
     </>
   );
 }
