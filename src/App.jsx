@@ -26,7 +26,7 @@ function App() {
         </>
       } />
       <Section title="Certificates" contents={
-        data.certificates.map((certificate) => (<Certificate info={certificate} lang={lang} />))
+        data.certificates.map((certificate) => (<Certificate info={certificate} lang={lang} monthes={data.monthes} />))
       }/>
       <Section title="Projects" />
       <Section title="Contact" />
@@ -115,12 +115,13 @@ function SubSection({ title, contents }) {
   );
 }
 
-function Certificate({info, lang}) {
+function Certificate({info, lang, monthes}) {
+  let date = new Date(info.date);
   return(
     <>
     <h3>{info.title[lang]}</h3>
     <h4>{info.organization}</h4>
-    <p>{new Date(info.date).toString()}</p>
+    <p>{monthes[date.getMonth()][lang]} {date.getFullYear()}</p>
     <img src={info.src} alt={info.title[lang]} width={100} />
     </>
   );

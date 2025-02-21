@@ -76,7 +76,7 @@
             },
             "organization": "ICPC - International Collegiate Programming Contest",
             "date": "2023-09-29",
-            "src": ""
+            "src": "/icpc23.png"
         },
         {
             "title": {
@@ -85,7 +85,7 @@
             },
             "organization": "ICPC - International Collegiate Programming Contest",
             "date": "2022-12-10",
-            "src": ""
+            "src": "/seerc22.png"
         },
         {
             "title": {
@@ -97,6 +97,7 @@
             "src": "/Routing and Switching.png"
         }
     ],
+    "allCertificates": "https://www.linkedin.com/in/antonina-zdebska-038baa351/details/certifications/",
     "skills": {
         "soft": [
             {
@@ -373,6 +374,56 @@
                 "ua": "C1",
                 "en": "C1"
             }
+        }
+    ],
+    "monthes": [
+        {
+            "ua": "січ",
+            "en": "jan"
+        },
+        {
+            "ua": "лют",
+            "en": "feb"
+        },
+        {
+            "ua": "бер",
+            "en": "mar"
+        },
+        {
+            "ua": "кві",
+            "en": "apr"
+        },
+        {
+            "ua": "тра",
+            "en": "may"
+        },
+        {
+            "ua": "чер",
+            "en": "jun"
+        },
+        {
+            "ua": "лип",
+            "en": "jul"
+        },
+        {
+            "ua": "сер",
+            "en": "aug"
+        },
+        {
+            "ua": "вер",
+            "en": "sep"
+        },
+        {
+            "ua": "жов",
+            "en": "oct"
+        },
+        {
+            "ua": "лис",
+            "en": "nov"
+        },
+        {
+            "ua": "гру",
+            "en": "dec"
         }
     ]
 }
