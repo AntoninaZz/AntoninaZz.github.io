@@ -50,6 +50,24 @@
             }
         }
     ],
+    "achievements": [
+        {
+            "ua": "Отримала диплом з відзнакою.",
+            "en": "I received my diploma with honors."
+        },
+        {
+            "ua": "Протягом 6 років виконувала обов'язки заступника старости групи.",
+            "en": "For 6 years I served as the deputy head of the group."
+        },
+        {
+            "ua": "Брала участь у міжнародній командній студентській олімпіаді з програмування (ІСРС) у 2021-2024 роках.",
+            "en": "I participated in the International Student Programming Contest (ISPC) in 2021-2024."
+        },
+        {
+            "ua": "Пройшла практики у SoftServe: З-тижневу у напрямі React у 2023 та 4-тижневу у напрямі React, ASP.NET у 2024.",
+            "en": "I completed an internship at SoftServe: a 2-week internship in React in 2023 and a 4-week internship in React, ASP.NET in 2024."
+        }
+    ],
     "skills": {
         "soft": [
             {

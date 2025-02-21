@@ -14,11 +14,6 @@ function App() {
         <p>{data.profile.about[lang]}</p>
       </section>
       <section>
-        <h2>{lang == 'ua' ? "Освіта" : "Education"}</h2>
-        <img src="/education-photo.png" alt="Antonina Zdebska Masters degree photo" width={100} />
-        {data.education.map((ed) => (<Education info={ed} lang={lang} />))}
-      </section>
-      <section>
         <h2>{lang == 'ua' ? "Навички" : "Skills"}</h2>
         <h3>Soft</h3>
         <div>{data.skills.soft.map((skill) => (<SoftSkill info={skill} lang={lang} />))}</div>
@@ -26,6 +21,12 @@ function App() {
         <div>{data.skills.hard.map((skill) => (<HardSkill info={skill} />))}</div>
         <h3>{lang == 'ua' ? "Мови" : "Languages"}</h3>
         <div>{data.languages.map((language) => (<Language info={language} lang={lang} />))}</div>
+      </section>
+      <section>
+        <h2>{lang == 'ua' ? "Освіта" : "Education"}</h2>
+        <img src="/education-photo.png" alt="Antonina Zdebska Masters degree photo" width={100} />
+        {data.education.map((ed) => (<Education info={ed} lang={lang} />))}
+        {data.achievements.map((a) => (<Achievement info={a} lang={lang} />))}
       </section>
     </>
   )
@@ -82,6 +83,14 @@ function Language({ info, lang }) {
   return (
     <>
       <span style={{ padding: 5 }}>{info.language[lang]} ({info.level[lang]})</span>
+    </>
+  );
+}
+
+function Achievement({ info, lang }) {
+  return (
+    <>
+      <p>{info[lang]}</p>
     </>
   );
 }
