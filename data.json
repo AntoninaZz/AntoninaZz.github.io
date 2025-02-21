@@ -4,6 +4,10 @@
             "ua": "Антоніна Здебська",
             "en": "Antonina Zdebska"
         },
+        "position": {
+            "ua": "Розробник програмного забезпечення",
+            "en": "Software Developer"
+        },
         "about": {
             "ua": "Відповідальна та працьовита, завжди прагну вдосконалюватися та дізнаватися нове. Добре зосереджуюсь на завданнях та виконую їх з максимальною ретельністю. Доброзичлива й дружелюбна, позитивна, не конфліктна.",
             "en": "I am responsible and hardworking, always striving to improve and learn new things. I focus well on tasks and perform them with the utmost care. Furthermore, I am friendly, positive and non-conflictive."
@@ -44,5 +48,261 @@
                 "en": "sep 2019 – jun 2023"
             }
         }
-    ]
+    ],
+    "skills": {
+        "soft": [
+            {
+                "ua": "Комунікабельність",
+                "en": "Communication"
+            },
+            {
+                "ua": "Робота в команді",
+                "en": "Teamwork"
+            },
+            {
+                "ua": "Творчий підхід",
+                "en": "Creativity"
+            },
+            {
+                "ua": "Відповідальність",
+                "en": "Responsibility"
+            },
+            {
+                "ua": "Бажання вчитися",
+                "en": "Willingness to learn"
+            },
+            {
+                "ua": "Розв'язання проблем",
+                "en": "Problem-solving"
+            },
+            {
+                "ua": "Адаптивність",
+                "en": "Adaptability"
+            },
+            {
+                "ua": "Організація часу",
+                "en": "Time Management"
+            },
+            {
+                "ua": "Концентрація",
+                "en": "Concentration"
+            },
+            {
+                "ua": "Увага до деталей",
+                "en": "Attention to Detail"
+            },
+            {
+                "ua": "Старанність",
+                "en": "Diligence"
+            },
+            {
+                "ua": "Емпатія",
+                "en": "Empathy"
+            },
+            {
+                "ua": "Позитивність",
+                "en": "Positivity"
+            },
+            {
+                "ua": "Неконфліктність",
+                "en": "Non-conflict"
+            }
+        ],
+        "hard": [
+            {
+                "skill": "JavaScript",
+                "level": 5
+            },
+            {
+                "skill": "React Native",
+                "level": 5
+            },
+            {
+                "skill": "React.js",
+                "level": 3
+            },
+            {
+                "skill": "Node.js",
+                "level": 4
+            },
+            {
+                "skill": "HTML5",
+                "level": 5
+            },
+            {
+                "skill": "CSS3",
+                "level": 5
+            },
+            {
+                "skill": "Expo",
+                "level": 5
+            },
+            {
+                "skill": "Vite",
+                "level": 3
+            },
+            {
+                "skill": "ASP.NET",
+                "level": 2
+            },
+            {
+                "skill": "jQuery",
+                "level": 2
+            },
+            {
+                "skill": "UI",
+                "level": 3
+            },
+            {
+                "skill": "Figma",
+                "level": 3
+            },
+            {
+                "skill": "Bootstrap",
+                "level": 4
+            },
+            {
+                "skill": "Responsive Design",
+                "level": 4
+            },
+            {
+                "skill": "Cross-Browser Compatibility",
+                "level": 3
+            },
+            {
+                "skill": "C#",
+                "level": 4
+            },
+            {
+                "skill": "OOP",
+                "level": 3
+            },
+            {
+                "skill": ".NET Framework",
+                "level": 3
+            },
+            {
+                "skill": "Git",
+                "level": 4
+            },
+            {
+                "skill": "GitHub",
+                "level": 4
+            },
+            {
+                "skill": "Visual Studio",
+                "level": 4
+            },
+            {
+                "skill": "Visual Studio Code",
+                "level": 5
+            },
+            {
+                "skill": "Agile Methodologies",
+                "level": 4
+            },
+            {
+                "skill": "Jira",
+                "level": 3
+            },
+            {
+                "skill": "Quality Assurance",
+                "level": 4
+            },
+            {
+                "skill": "Mocha (JavaScript Framework)",
+                "level": 3
+            },
+            {
+                "skill": "Chai.js",
+                "level": 3
+            },
+            {
+                "skill": "Firebase",
+                "level": 2
+            },
+            {
+                "skill": "Microsoft SQL Server",
+                "level": 4
+            },
+            {
+                "skill": "SQL",
+                "level": 3
+            },
+            {
+                "skill": "Autodesk 3ds Max",
+                "level": 3,
+                "field": "3D"
+            },
+            {
+                "skill": "Zbrush",
+                "level": 5,
+                "field": "3D"
+            },
+            {
+                "skill": "Topogun 2",
+                "level": 4,
+                "field": "3D"
+            },
+            {
+                "skill": "RizomUV",
+                "level": 5,
+                "field": "3D"
+            },
+            {
+                "skill": "Marmoset Toolbag 3",
+                "level": 4,
+                "field": "3D"
+            },
+            {
+                "skill": "Substance Painter",
+                "level": 4,
+                "field": "3D"
+            },
+            {
+                "skill": "Internet of Things (IoT)",
+                "level": 2
+            },
+            {
+                "skill": "Embedded systems",
+                "level": 4
+            },
+            {
+                "skill": "Tinkercad",
+                "level": 4
+            },
+            {
+                "skill": "Cisco Packet Tracer",
+                "level": 3
+            },
+            {
+                "skill": "Multithreading and Parallel Programming",
+                "level": 2
+            },
+            {
+                "skill": "Python",
+                "level": 2
+            },
+            {
+                "skill": "Assembly",
+                "level": 4
+            },
+            {
+                "skill": "PHP",
+                "level": 2
+            },
+            {
+                "skill": "Linux bash",
+                "level": 2
+            },
+            {
+                "skill": "MS DOS",
+                "level": 2
+            },
+            {
+                "skill": "Windows PowerShell",
+                "level": 2
+            }
+        ]
+    }
 }
