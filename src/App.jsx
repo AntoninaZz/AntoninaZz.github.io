@@ -9,25 +9,25 @@ function App() {
     <>
       <button onClick={() => setLang(lang == 'ua' ? 'en' : 'ua')}>{lang == 'ua' ? <img src="/language-ua.svg" alt="english language" width={40} /> : <img src="/language-en.svg" alt="ukrainian language" width={40} />}</button>
       <MainInfo language={lang} />
-      <section>
-        <h2>{lang == 'ua' ? "Про себе" : "About"}</h2>
-        <p>{data.profile.about[lang]}</p>
-      </section>
-      <section>
-        <h2>{lang == 'ua' ? "Навички" : "Skills"}</h2>
-        <SubSection title="Soft" contents={data.skills.soft.map((skill) => (<SoftSkill info={skill} lang={lang} />))} />
-        <SubSection title="Hard" contents={data.skills.hard.map((skill) => (<HardSkill info={skill} />))} />
-        <SubSection title={lang == 'ua' ? "Мови" : "Languages"} contents={data.languages.map((language) => (<Language info={language} lang={lang} />))} />
-      </section>
-      <section>
-        <h2>{lang == 'ua' ? "Освіта" : "Education"}</h2>
-        <img src="/education-photo.png" alt="Antonina Zdebska Masters degree photo" width={100} />
-        {data.education.map((ed) => (<Education info={ed} lang={lang} />))}
-        {data.achievements.map((a) => (<Achievement info={a} lang={lang} />))}
-      </section>
-      <section>Certificates</section>
-      <section>Projects</section>
-      <section>Contact</section>
+      <Section title={lang == 'ua' ? "Про себе" : "About"} contents={data.profile.about[lang]} />
+      <Section title={lang == 'ua' ? "Навички" : "Skills"}
+        contents={
+          <>
+            <SubSection title="Soft" contents={data.skills.soft.map((skill) => (<SoftSkill info={skill} lang={lang} />))} />
+            <SubSection title="Hard" contents={data.skills.hard.map((skill) => (<HardSkill info={skill} />))} />
+            <SubSection title={lang == 'ua' ? "Мови" : "Languages"} contents={data.languages.map((language) => (<Language info={language} lang={lang} />))} />
+          </>
+        } />
+      <Section title={lang == 'ua' ? "Освіта" : "Education"} contents={
+        <>
+          <img src="/education-photo.png" alt="Antonina Zdebska Masters degree photo" width={100} />
+          {data.education.map((ed) => (<Education info={ed} lang={lang} />))}
+          {data.achievements.map((a) => (<Achievement info={a} lang={lang} />))}
+        </>
+      } />
+      <Section title="Certificates" />
+      <Section title="Projects" />
+      <Section title="Contact" />
     </>
   )
 }
@@ -95,11 +95,20 @@ function Achievement({ info, lang }) {
   );
 }
 
-function SubSection({title, contents}){
-  return(
+function Section({ title, contents }) {
+  return (
     <>
-    <h3>{title}</h3>
-    <div>{contents}</div>
+      <h2>{title}</h2>
+      <div>{contents}</div>
+    </>
+  );
+}
+
+function SubSection({ title, contents }) {
+  return (
+    <>
+      <h3>{title}</h3>
+      <div>{contents}</div>
     </>
   );
 }
