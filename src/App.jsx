@@ -10,17 +10,22 @@ function App() {
       <button onClick={() => setLang(lang == 'ua' ? 'en' : 'ua')}>{lang == 'ua' ? <img src="/language-ua.svg" alt="english language" width={40} /> : <img src="/language-en.svg" alt="ukrainian language" width={40} />}</button>
       <MainInfo language={lang} />
       <section>
-        <h2>{lang == 'ua' ? "про себе" : "about"}</h2>
+        <h2>{lang == 'ua' ? "Про себе" : "About"}</h2>
         <p>{data.profile.about[lang]}</p>
       </section>
       <section>
-        <h2>{lang == 'ua' ? "освіта" : "education"}</h2>
+        <h2>{lang == 'ua' ? "Освіта" : "Education"}</h2>
         <img src="/education-photo.png" alt="Antonina Zdebska Masters degree photo" width={100} />
         {data.education.map((ed) => (<Education info={ed} lang={lang} />))}
       </section>
       <section>
+        <h2>{lang == 'ua' ? "Навички" : "Skills"}</h2>
+        <h3>Soft</h3>
         <div>{data.skills.soft.map((skill) => (<SoftSkill info={skill} lang={lang} />))}</div>
+        <h3>Hard</h3>
         <div>{data.skills.hard.map((skill) => (<HardSkill info={skill} />))}</div>
+        <h3>{lang == 'ua' ? "Мови" : "Languages"}</h3>
+        <div>{data.languages.map((language) => (<Language info={language} lang={lang} />))}</div>
       </section>
     </>
   )
@@ -58,9 +63,9 @@ function Education({ info, lang }) {
 
 function HardSkill({ info }) {
   return (
-    <div style={{display: "inline-block", width: "15%", padding: 5}}>
-    <div>{info.skill}</div>
-    <div style={{width: info.level*20+'%', height: 2, backgroundColor: "blueviolet"}}></div>
+    <div style={{ display: "inline-block", width: "15%", padding: 5 }}>
+      <div>{info.skill}</div>
+      <div style={{ width: info.level * 20 + '%', height: 2, backgroundColor: "blueviolet" }}></div>
     </div>
   );
 }
@@ -68,19 +73,27 @@ function HardSkill({ info }) {
 function SoftSkill({ info, lang }) {
   return (
     <>
-    <span style={{padding: 5}}>{info[lang]}</span>
+      <span style={{ padding: 5 }}>{info[lang]}</span>
     </>
   );
 }
 
-function getAge(birthday){
-  let today = new Date(); 
+function Language({ info, lang }) {
+  return (
+    <>
+      <span style={{ padding: 5 }}>{info.language[lang]} ({info.level[lang]})</span>
+    </>
+  );
+}
+
+function getAge(birthday) {
+  let today = new Date();
   let age = today.getFullYear() - birthday.getFullYear();
-    var m = today.getMonth() - birthday.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < birthday.getDate())) {
-        age--;
-    }
-    return age;
+  var m = today.getMonth() - birthday.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < birthday.getDate())) {
+    age--;
+  }
+  return age;
 }
 
 export default App
