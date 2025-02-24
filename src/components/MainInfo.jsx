@@ -1,5 +1,6 @@
 import Contact from "./Contact";
 import { object, string } from 'prop-types';
+import '../css/Skill.css'
 
 function MainInfo({ language, data }) {
 
@@ -15,7 +16,7 @@ function MainInfo({ language, data }) {
 
     return (
         <>
-            <div>
+            <div className="ed skill">
                 <img src="/profile-photo.jpg" alt="Antonina Zdebska profile photo" width={100} />
                 <h1>{data.profile.name[language]}</h1>
                 <p>{data.profile.position[language]}, {getAge(new Date(data.profile.birthday))} {language == 'ua' ? "роки" : "y.o."}</p>

@@ -1,10 +1,12 @@
 import { object } from 'prop-types';
+import '../css/Skill.css';
+import '../css/colors.css';
 
 function HardSkill({ info }) {
     return (
-        <div style={{ display: "inline-block", width: "15%", padding: 5 }}>
-            <div>{info.skill}</div>
-            <div style={{ width: info.level * 20 + '%', height: 2, backgroundColor: "blueviolet" }}></div>
+        <div className='hard skill'>
+            <div className='title'>{info.skill}</div>
+            <div className='level' style={{ width: info.level * 20 + '%', height: 2}} ></div>
         </div>
     );
 }

@@ -1,9 +1,10 @@
 import { object, string } from 'prop-types';
+import '../css/Skill.css'
 
 function SoftSkill({ info, lang }) {
     return (
         <>
-            <span style={{ padding: 5 }}>{info[lang]}</span>
+            <div className='skill'>{info[lang]}</div>
         </>
     );
 }

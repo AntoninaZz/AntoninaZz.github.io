@@ -1,0 +1,42 @@
+@import "./colors.css";
+
+.skill {
+    color: var(--black);
+    background-color: var(--lightblue);
+    padding: 1em;
+    margin: 0.5em;
+    display: inline-block;
+    border-radius: 0.5em;
+}
+
+.skill:hover {
+    background-color: var(--blue);
+}
+
+.hard {
+    width: 15%;
+}
+
+.title {
+    width: 100%;
+    height: 1.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hard:hover .title {
+    white-space: wrap;
+    overflow: auto;
+    height: fit-content;
+}
+
+.level {
+    background-color: var(--black);
+    border-radius: 0.5em;
+}
+
+.ed {
+    display: block;
+    width: fit-content;
+}

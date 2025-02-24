@@ -1,10 +1,9 @@
 import { object, string } from 'prop-types';
+import '../css/Skill.css'
 
 function Language({ info, lang }) {
     return (
-        <>
-            <span style={{ padding: 5 }}>{info.language[lang]} ({info.level[lang]})</span>
-        </>
+        <div className='skill'>{info.language[lang]} ({info.level[lang]})</div>
     );
 }
 
