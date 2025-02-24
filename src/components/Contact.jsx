@@ -1,7 +1,8 @@
 import { objectOf, string } from 'prop-types';
+import '../css/Skill.css'
 
 function Contact({ type, contacts }) {
-    return (<a href={contacts[type]} target="_blank"><img src={type + ".svg"} alt={type} /></a>);
+    return (<a href={contacts[type]} target="_blank"><img src={type + ".svg"} alt={type} className='contact' /></a>);
 }
 
 Contact.propTypes = {

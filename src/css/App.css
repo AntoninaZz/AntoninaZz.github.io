@@ -4,5 +4,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 33% 67%;
+  justify-content: space-evenly;
 }

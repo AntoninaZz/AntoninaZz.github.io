@@ -16,8 +16,8 @@ function MainInfo({ language, data }) {
 
     return (
         <>
-            <div className="ed skill">
-                <img src="/profile-photo.jpg" alt="Antonina Zdebska profile photo" width={100} />
+            <div className="main">
+                <img src="/profile-photo.jpg" alt="Antonina Zdebska profile photo" className="profile-photo"/>
                 <h1>{data.profile.name[language]}</h1>
                 <p>{data.profile.position[language]}, {getAge(new Date(data.profile.birthday))} {language == 'ua' ? "роки" : "y.o."}</p>
                 <Contact type="linkedin" contacts={data.contacts} />
