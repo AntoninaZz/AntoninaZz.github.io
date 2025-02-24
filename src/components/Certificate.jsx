@@ -1,14 +1,15 @@
 import { object, string } from 'prop-types';
+import '../css/Skill.css'
 
 function Certificate({ info, lang, monthes }) {
     let date = new Date(info.date);
     return (
-        <>
+        <div className='certificate skill'>
             <h3>{info.title[lang]}</h3>
             <h4>{info.organization}</h4>
             <p>{monthes[date.getMonth()][lang]} {date.getFullYear()}</p>
-            <img src={info.src} alt={info.title[lang]} width={100} />
-        </>
+            <img src={info.src} alt={info.title[lang]} className='certificate' />
+        </div>
     );
 }
 

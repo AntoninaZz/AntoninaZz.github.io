@@ -40,3 +40,13 @@
     display: block;
     width: fit-content;
 }
+
+.certificate {
+    width: 80%;
+}
+
+img.certificate {
+    height: 14em;
+    width: auto;
+    float: left;
+}
