@@ -18,8 +18,12 @@
     width: 15%;
 }
 
-.hard.skill:nth-child(n + 31) {
+.hard.skill:nth-child(n + 32) {
     display: none;
+}
+
+.more-btn.show~.hard.skill:nth-child(n + 32) {
+    display: inline-block;
 }
 
 .title {
@@ -104,4 +108,26 @@ img.certificate {
 
 .lang::before {
     content: '➤ ';
+}
+
+.more-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0 0.5em;
+    font-size: 2em;
+    color: var(--black);
+    position: absolute;
+    position: absolute;
+    right: 1em;
+    bottom: -1.2em;
+}
+
+.more-btn::after {
+    content: '🢗';
+}
+
+.more-btn.show::after {
+    content: '🢕';
 }
