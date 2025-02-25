@@ -3,7 +3,7 @@ import '../css/Skill.css'
 
 function Language({ info, lang }) {
     return (
-        <div className='skill'>{info.language[lang]} ({info.level[lang]})</div>
+        <div className='lang'>{info.language[lang]} ({info.level[lang]})</div>
     );
 }
 

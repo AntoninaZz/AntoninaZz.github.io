@@ -23,12 +23,12 @@ function App() {
       <Section title={lang == 'ua' ? "Навички" : "Skills"}
         contents={
           <div className='skills-container'>
-            <SubSection title="Soft" contents={data.skills.soft.map((skill, i) => (<SoftSkill info={skill} lang={lang} key={i} className="soft" />))} />
+            <SubSection title="Soft Skills" contents={data.skills.soft.map((skill, i) => (<SoftSkill info={skill} lang={lang} key={i} className="soft" />))} />
             <SubSection title={lang == 'ua' ? "Мови" : "Languages"} contents={data.languages.map((language, i) => (<Language info={language} lang={lang} key={i} />))} />
           </div>
         } />
       <div className='hard-sec'>
-        <SubSection title="Hard" contents={(<SkillSet skills={data.skills.hard.map((skill, i) => (<HardSkill info={skill} key={i} />))} />)} />
+        <SubSection title="Hard Skills" contents={(<SkillSet skills={data.skills.hard.map((skill, i) => (<HardSkill info={skill} key={i} />))} />)} />
       </div>
       <Section title={lang == 'ua' ? "Освіта" : "Education"} contents={
         <>
