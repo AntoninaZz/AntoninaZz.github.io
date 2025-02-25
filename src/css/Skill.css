@@ -16,6 +16,8 @@
 
 .hard {
     width: 15.29%;
+    min-width: 15.29%;
+    height: 2.5em;
 }
 
 .hard.skill:nth-child(n + 32) {
@@ -36,13 +38,29 @@
 
 .hard:hover .title {
     white-space: wrap;
-    overflow: auto;
+    overflow: visible;
     height: fit-content;
+    position: relative;
+    background-color: var(--blue);
+    border-radius: 0.5em;
+    padding: 0.5em;
+    left: -0.5em;
+    top: -0.5em;
+    box-shadow: 0px 0px 24px -10px var(--darkblack);
+    -webkit-box-shadow: 0px 0px 24px -10px var(--darkblack);
+    -moz-box-shadow: 0px 0px 24px -10px var(--darkblack);
+    /* top: -1.25em; */
 }
 
 .level {
     background-color: var(--black);
     border-radius: 0.5em;
+}
+
+.hard:hover .level {
+    position: relative;
+    top: -1em;
+    /* top: -1.75em; */
 }
 
 .certificate {
@@ -94,10 +112,6 @@ img.certificate {
 }
 
 @keyframes lang {
-    from {
-        transform: rotate(0deg);
-    }
-
     to {
         transform: rotate(180deg);
     }
