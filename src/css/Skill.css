@@ -46,13 +46,25 @@
 }
 
 .certificate {
-    width: 80%;
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 25% 75%;
 }
 
 img.certificate {
-    height: 14em;
-    width: auto;
+    width: 100%;
     float: left;
+    border-radius: 0.25em;
+}
+
+.certificate-info {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 2em;
+}
+
+.certificates {
+    position: relative;
 }
 
 .profile-photo {
@@ -118,6 +130,10 @@ img.certificate {
     bottom: -1.2em;
 }
 
+.more-btn:hover {
+    color: var(--blue);
+}
+
 .more-btn::after {
     content: '🢗';
 }
@@ -136,7 +152,8 @@ img.certificate {
     margin: 2em 0;
 } */
 
-.ed * {
+.ed * ,
+.certificate-info * {
     margin: 0.5em 0;
 }
 

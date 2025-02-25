@@ -2,14 +2,18 @@ import { useState } from 'react'
 import { string } from 'prop-types';
 import '../css/Skill.css'
 
-function MoreBtn() {
+function MoreBtn({ link, as: Component = 'button', }) {
     const [className, setClassName] = useState("more-btn");
-    return (<button onClick={() => {className.includes(' ') ? setClassName("more-btn") : setClassName("more-btn show")}} className={className}></button>);
+    if (link) {
+        return (<Component href={link} target='_blank' className="more-btn" ></Component>);
+    } else {
+        return (<Component onClick={() => { className.includes(' ') ? setClassName("more-btn") : setClassName("more-btn show") }} className={className}></Component>);
+    }
 }
 
 MoreBtn.propTypes = {
     link: string,
-    lang: string,
+    as: string,
 };
 
 export default MoreBtn;

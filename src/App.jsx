@@ -11,6 +11,7 @@ import SoftSkill from './components/SoftSkill';
 import Language from './components/Language';
 import Achievement from './components/Achievement';
 import Certificate from './components/Certificate';
+import MoreBtn from './components/MoreBtn';
 
 function App() {
   const [lang, setLang] = useState('en');
@@ -37,8 +38,10 @@ function App() {
           </div>
         } />
         <Section title="Certificates" contents={
-          data.certificates.map((certificate, i) => (<Certificate info={certificate} lang={lang} monthes={data.monthes} key={i} />))
-        } />
+          <div className='certificates'>
+            {data.certificates.map((certificate, i) => (<Certificate info={certificate} lang={lang} monthes={data.monthes} key={i} />))}
+            <MoreBtn link="https://www.linkedin.com/in/antonina-zdebska-038baa351/details/certifications/" as='a'/>
+          </div>} />
         <Section title="Projects" />
         <Section title="Contact" />
       </div>
