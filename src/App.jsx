@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <div className='main-screen'>
-        <button onClick={() => setLang(lang == 'ua' ? 'en' : 'ua')} className='lang-btn'>{lang == 'ua' ? <img src="/language-ua.svg" alt="english language" width={40} /> : <img src="/language-en.svg" alt="ukrainian language" width={40} />}</button>
+        <button onClick={() => setLang(lang == 'ua' ? 'en' : 'ua')} className='lang-btn'>{lang == 'ua' ? <img src="/language-ua.svg" alt="english language" /> : <img src="/language-en.svg" alt="ukrainian language" width={40} />}</button>
         <MainInfo language={lang} data={data} className="main" />
         <Section title={lang == 'ua' ? "Про себе" : "About"} contents={data.profile.about[lang]} />
         <Section title={lang == 'ua' ? "Навички" : "Skills"}

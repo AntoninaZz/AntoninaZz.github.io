@@ -85,6 +85,24 @@ img.certificate {
     right: 0;
 }
 
+.lang-btn img {
+    width: 3em;
+}
+
+.lang-btn:active img {
+    animation: lang 0.1s ease-in forwards;
+}
+
+@keyframes lang {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
+
 .main {
     height: 36em;
     text-align: center;
@@ -145,10 +163,6 @@ a.more-btn {
     justify-content: space-evenly;
 }
 
-/* .ed {
-    margin: 2em 0;
-} */
-
 .ed *,
 .certificate-info * {
     margin: 0.5em 0;
@@ -175,4 +189,8 @@ h3 {
 
 .main+div div {
     margin-left: 0.5em;
+}
+
+.main-screen~div h2 {
+    margin-top: 3em;
 }
