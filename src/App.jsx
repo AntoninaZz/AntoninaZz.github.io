@@ -18,33 +18,33 @@ function App() {
 
   return (
     <>
-      <button onClick={() => setLang(lang == 'ua' ? 'en' : 'ua')} className='lang-btn'>{lang == 'ua' ? <img src="/language-ua.svg" alt="english language" width={40} /> : <img src="/language-en.svg" alt="ukrainian language" width={40} />}</button>
-      <MainInfo language={lang} data={data} className="main" />
-      <Section title={lang == 'ua' ? "Про себе" : "About"} contents={data.profile.about[lang]} />
-      <Section title={lang == 'ua' ? "Навички" : "Skills"}
-        contents={
-          <div className='skills-container'>
-            <SubSection title="Soft Skills" contents={data.skills.soft.map((skill, i) => (<SoftSkill info={skill} lang={lang} key={i} className="soft" />))} />
-            <SubSection title={lang == 'ua' ? "Мови" : "Languages"} contents={data.languages.map((language, i) => (<Language info={language} lang={lang} key={i} />))} />
-          </div>
-        } />
-      <div className='full-screen'>
-        <SubSection title="Hard Skills" contents={(<SkillSet skills={data.skills.hard.map((skill, i) => (<HardSkill info={skill} key={i} />))} />)} />
-        <Section title={lang == 'ua' ? "Освіта" : "Education"} contents={
-          <div className='ed-container'>
-            <div className='degrees'>{data.education.map((ed, i) => (<Education info={ed} lang={lang} key={i} />))}</div>
-            <img src="/education-photo.png" alt="Antonina Zdebska Masters degree photo" className='ed-photo' />
-            <div>{data.achievements.map((a, i) => (<Achievement info={a} lang={lang} key={i} />))}</div>
-          </div>
-        } />
-        <Section title="Certificates" contents={
-          <div className='certificates'>
-            {data.certificates.map((certificate, i) => (<Certificate info={certificate} lang={lang} monthes={data.monthes} key={i} />))}
-            <MoreBtn link="https://www.linkedin.com/in/antonina-zdebska-038baa351/details/certifications/" as='a'/>
-          </div>} />
-        <Section title="Projects" />
-        <Section title="Contact" />
+      <div className='main-screen'>
+        <button onClick={() => setLang(lang == 'ua' ? 'en' : 'ua')} className='lang-btn'>{lang == 'ua' ? <img src="/language-ua.svg" alt="english language" width={40} /> : <img src="/language-en.svg" alt="ukrainian language" width={40} />}</button>
+        <MainInfo language={lang} data={data} className="main" />
+        <Section title={lang == 'ua' ? "Про себе" : "About"} contents={data.profile.about[lang]} />
+        <Section title={lang == 'ua' ? "Навички" : "Skills"}
+          contents={
+            <div className='skills-container'>
+              <SubSection title="Soft Skills" contents={data.skills.soft.map((skill, i) => (<SoftSkill info={skill} lang={lang} key={i} className="soft" />))} />
+              <SubSection title={lang == 'ua' ? "Мови" : "Languages"} contents={data.languages.map((language, i) => (<Language info={language} lang={lang} key={i} />))} />
+            </div>
+          } />
       </div>
+      <SubSection title="Hard Skills" contents={(<SkillSet skills={data.skills.hard.map((skill, i) => (<HardSkill info={skill} key={i} />))} />)} />
+      <Section title={lang == 'ua' ? "Освіта" : "Education"} contents={
+        <div className='ed-container'>
+          <div className='degrees'>{data.education.map((ed, i) => (<Education info={ed} lang={lang} key={i} />))}</div>
+          <img src="/education-photo.png" alt="Antonina Zdebska Masters degree photo" className='ed-photo' />
+          <div>{data.achievements.map((a, i) => (<Achievement info={a} lang={lang} key={i} />))}</div>
+        </div>
+      } />
+      <Section title="Certificates" contents={
+        <div className='certificates'>
+          {data.certificates.map((certificate, i) => (<Certificate info={certificate} lang={lang} monthes={data.monthes} key={i} />))}
+          <MoreBtn link="https://www.linkedin.com/in/antonina-zdebska-038baa351/details/certifications/" as='a' />
+        </div>} />
+      <Section title="Projects" />
+      <Section title="Contact" />
     </>
   )
 }

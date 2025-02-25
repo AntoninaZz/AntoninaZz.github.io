@@ -81,8 +81,8 @@ img.certificate {
 
 .lang-btn {
     position: absolute;
-    top: 2em;
-    right: 4em;
+    top: 0;
+    right: 0;
 }
 
 .main {
@@ -103,11 +103,6 @@ img.certificate {
     margin-top: -2em;
 }
 
-.full-screen {
-    grid-column: 1 / 3;
-    margin: 1em;
-}
-
 .lang {
     padding: 0.5em;
 }
@@ -123,7 +118,6 @@ img.certificate {
     margin: 0;
     padding: 0 0.5em;
     font-size: 2em;
-    color: var(--black);
     position: absolute;
     position: absolute;
     right: 1em;
@@ -152,7 +146,7 @@ img.certificate {
     margin: 2em 0;
 } */
 
-.ed * ,
+.ed *,
 .certificate-info * {
     margin: 0.5em 0;
 }
@@ -161,4 +155,11 @@ img.certificate {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.main-screen {
+    display: grid;
+    grid-template-columns: 33% 67%;
+    justify-content: space-evenly;
+    position: relative;
 }
