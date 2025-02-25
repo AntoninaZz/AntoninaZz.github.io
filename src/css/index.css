@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "./colors.css";
+
 :root {
   font-family: "Montserrat", serif;
   line-height: 1.5;
@@ -13,6 +14,24 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* background pattern */
+  --s: 160px;
+  /* control the size*/
+  --c1: var(--lightblack);
+  --c2: var(--darkblack);
+  --c3: var(--black);
+
+  background:
+    conic-gradient(from 15deg at 86.6%,
+      var(--c3) 25%, var(--c2) 0 150deg, #0000 0),
+    conic-gradient(from -75deg at 50% 13.39%,
+      var(--c1) 60deg, var(--c3) 0 150deg,
+      var(--c2) 0 210deg, #0000 0),
+    conic-gradient(from 15deg at 36.6% 63.4%,
+      var(--c1) 60deg, var(--c3) 0 150deg,
+      var(--c1) 0 210deg, var(--c2) 0 75%, var(--c3) 0);
+  background-size: var(--s) var(--s);
 }
 
 a {
@@ -20,6 +39,7 @@ a {
   color: var(--lightblue);
   text-decoration: inherit;
 }
+
 a:hover {
   color: var(--blue);
   opacity: 0.7;
@@ -39,7 +59,7 @@ h1 {
   margin: 1em 0 0 0;
 }
 
-ul{
+ul {
   padding-left: 0.5em;
 }
 
@@ -55,9 +75,11 @@ button {
   transition: border-color 0.25s;
   color: var(--lightblue);
 }
+
 button:hover {
   opacity: 0.7;
 }
+
 button:focus,
 button:focus-visible {
   outline: none;
@@ -67,10 +89,28 @@ button:focus-visible {
   :root {
     color: var(--black);
     background-color: var(--white);
+
+    --s: 160px;
+    --c1: var(--white);
+    --c2: var(--lightwhite);
+    --c3: var(--superwhite);
+
+    background:
+      conic-gradient(from 15deg at 86.6%,
+        var(--c3) 25%, var(--c2) 0 150deg, #0000 0),
+      conic-gradient(from -75deg at 50% 13.39%,
+        var(--c1) 60deg, var(--c3) 0 150deg,
+        var(--c2) 0 210deg, #0000 0),
+      conic-gradient(from 15deg at 36.6% 63.4%,
+        var(--c1) 60deg, var(--c3) 0 150deg,
+        var(--c1) 0 210deg, var(--c2) 0 75%, var(--c3) 0);
+    background-size: var(--s) var(--s);
   }
+
   button {
     color: var(--black);
   }
+
   a {
     color: var(--black);
   }

@@ -168,10 +168,11 @@ a.more-btn {
     position: relative;
 }
 
-h2, h3 {
+h2,
+h3 {
     margin-left: 0.5em;
 }
 
-.main + div div {
+.main+div div {
     margin-left: 0.5em;
 }
