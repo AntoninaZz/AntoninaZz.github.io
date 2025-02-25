@@ -38,6 +38,10 @@ h1 {
   margin: 1em 0 0 0;
 }
 
+ul{
+  padding-left: 0.5em;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;

@@ -2,9 +2,9 @@ import { object, string } from 'prop-types';
 
 function Achievement({ info, lang }) {
     return (
-        <>
-            <p>{info[lang]}</p>
-        </>
+        <ul>
+            <li>{info[lang]}</li>
+        </ul>
     );
 }
 

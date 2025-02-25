@@ -27,21 +27,21 @@ function App() {
             <SubSection title={lang == 'ua' ? "Мови" : "Languages"} contents={data.languages.map((language, i) => (<Language info={language} lang={lang} key={i} />))} />
           </div>
         } />
-      <div className='hard-sec'>
+      <div className='full-screen'>
         <SubSection title="Hard Skills" contents={(<SkillSet skills={data.skills.hard.map((skill, i) => (<HardSkill info={skill} key={i} />))} />)} />
+        <Section title={lang == 'ua' ? "Освіта" : "Education"} contents={
+          <div className='ed-container'>
+            <div className='degrees'>{data.education.map((ed, i) => (<Education info={ed} lang={lang} key={i} />))}</div>
+            <img src="/education-photo.png" alt="Antonina Zdebska Masters degree photo" className='ed-photo' />
+            <div>{data.achievements.map((a, i) => (<Achievement info={a} lang={lang} key={i} />))}</div>
+          </div>
+        } />
+        <Section title="Certificates" contents={
+          data.certificates.map((certificate, i) => (<Certificate info={certificate} lang={lang} monthes={data.monthes} key={i} />))
+        } />
+        <Section title="Projects" />
+        <Section title="Contact" />
       </div>
-      <Section title={lang == 'ua' ? "Освіта" : "Education"} contents={
-        <>
-          <img src="/education-photo.png" alt="Antonina Zdebska Masters degree photo" className='ed-photo' />
-          {data.education.map((ed, i) => (<Education info={ed} lang={lang} key={i} />))}
-          {data.achievements.map((a, i) => (<Achievement info={a} lang={lang} key={i} />))}
-        </>
-      } />
-      <Section title="Certificates" contents={
-        data.certificates.map((certificate, i) => (<Certificate info={certificate} lang={lang} monthes={data.monthes} key={i} />))
-      } />
-      <Section title="Projects" />
-      <Section title="Contact" />
     </>
   )
 }
