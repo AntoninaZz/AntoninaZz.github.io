@@ -45,7 +45,11 @@ function App() {
           <MoreBtn link="https://www.linkedin.com/in/antonina-zdebska-038baa351/details/certifications/" as='a' />
         </div>} />
       <Section title="Projects" contents={
-        <div className='projects'>{data.projects.map((project, i) => (<Project info={project} lang={lang} key={i} />))}</div>
+        <div className='projects'>{data.projects.sort(function(a, b){
+          let da = new Date(a.date);
+          let db = new Date(b.date);
+          return db - da;
+        }).map((project, i) => (<Project info={project} lang={lang} key={i} />))}</div>
       }/>
       <Section title="Contact" />
     </>
