@@ -218,7 +218,7 @@ h3 {
 
 .project {
     width: 95%;
-    height: 50vh;
+    height: 18em;
     position: relative;
     background-color: var(--blue);
 }
@@ -238,7 +238,7 @@ h3 {
 
 .project .text {
     position: relative;
-    top: 12vh;
+    margin-top: 4.5em;
     display: flex;
     flex-wrap: wrap;
 }
