@@ -8,6 +8,7 @@ function Project({ info, lang }) {
                 <img src={info.img} alt={info.title[lang]} />
                 <div className='text'>
                     <h3>{info.title[lang]}</h3>
+                    <p>{new Date(info.date).getFullYear()}</p>
                     {info.technologies.map((tech, i) => (<div className='tech skill' key={i} >{tech}</div>))}
                 </div>
             </div>

@@ -238,7 +238,7 @@ h3 {
 
 .project .text {
     position: relative;
-    top: 15vh;
+    top: 12vh;
     display: flex;
     flex-wrap: wrap;
     backdrop-filter: blur(1px);
@@ -246,8 +246,14 @@ h3 {
 
 .project h3 {
     margin-bottom: 0.5em;
-    width: 100%;
+    width: 90%;
     text-shadow: 0 0 10px var(--superwhite);
+}
+
+.project p {
+    width: 90%;
+    margin: -1em 0 0 1em;
+    font-size: small;
 }
 
 .tech {
