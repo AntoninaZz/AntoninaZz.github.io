@@ -12,6 +12,7 @@ import Language from './components/Language';
 import Achievement from './components/Achievement';
 import Certificate from './components/Certificate';
 import MoreBtn from './components/MoreBtn';
+import Project from './components/Project';
 
 function App() {
   const [lang, setLang] = useState('en');
@@ -43,7 +44,9 @@ function App() {
           {data.certificates.map((certificate, i) => (<Certificate info={certificate} lang={lang} monthes={data.monthes} key={i} />))}
           <MoreBtn link="https://www.linkedin.com/in/antonina-zdebska-038baa351/details/certifications/" as='a' />
         </div>} />
-      <Section title="Projects" />
+      <Section title="Projects" contents={
+        <>{data.projects.map((project, i) => (<Project info={project} lang={lang} key={i} />))}</>
+      }/>
       <Section title="Contact" />
     </>
   )
