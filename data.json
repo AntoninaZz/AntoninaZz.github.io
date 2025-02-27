@@ -425,5 +425,107 @@
             "ua": "гру",
             "en": "dec"
         }
+    ],
+    "projects": [
+        {
+            "title": {
+                "ua": "Таймер Pomodoro",
+                "en": "Pomodoro timer"
+            },
+            "technologies": ["JavaScript", "React Native", "Expo", "Vibration API"],
+            "img": "/pomodoro-timer.png",
+            "date": "2022-04-21",
+            "link": "https://snack.expo.dev/@antoninazz/pomodoro-timer"
+        },
+        {
+            "title": {
+                "ua": "Браузер фільмів",
+                "en": "Movie Browser"
+            },
+            "technologies": ["JavaScript", "React Native", "Expo", "React Navigation", "Open Movie Database API"],
+            "img": "/movie-browser.png",
+            "date": "2022-05-12",
+            "link": "https://snack.expo.dev/@antoninazz/movie-browser"
+        },
+        {
+            "title": {
+                "ua": "Поточна погода",
+                "en": "Current Weather"
+            },
+            "technologies": ["JavaScript", "React Native", "Expo", "OpenWeather API", "Expo Location"],
+            "img": "/current-weather.png",
+            "date": "2022-05-20",
+            "link": "https://snack.expo.dev/@antoninazz/current-weather"
+        },
+        {
+            "title": {
+                "ua": "Бульбашковий рівень",
+                "en": "Bubble Level"
+            },
+            "technologies": ["JavaScript", "React Native", "Expo", "Expo Sensors", "Expo Location"],
+            "img": "/waterpas.png",
+            "date": "2022-05-23",
+            "link": "https://snack.expo.dev/@antoninazz/waterpas"
+        },
+        {
+            "title": {
+                "ua": "Список справ",
+                "en": "To-Do List App"
+            },
+            "technologies": ["JavaScript", "React Native", "Expo", "Firebase Realtime Database"],
+            "img": "/to-do.png",
+            "date": "2022-06-01",
+            "link": "https://snack.expo.dev/@antoninazz/to-do-list-app"
+        },
+        {
+            "title": {
+                "ua": "Геометричні фігури",
+                "en": "Geometry Figures App"
+            },
+            "technologies": ["JavaScript", "React Native", "Expo", "React Native SVG"],
+            "img": "/geometry-figures-app.png",
+            "date": "2022-06-15",
+            "link": "https://snack.expo.dev/@antoninazz/geometry-figures-app"
+        },
+        {
+            "title": {
+                "ua": "Інформер валют",
+                "en": "Currency Informer"
+            },
+            "technologies": ["JavaScript", "React Native", "Expo", "React Navigation", "National Bank of Ukraine's API"],
+            "img": "/currency-informer.png",
+            "date": "2022-05-04",
+            "link": "https://snack.expo.dev/@antoninazz/currency-informer"
+        },
+        {
+            "title": {
+                "ua": "Депозитний калькулятор",
+                "en": "Deposit Calculator"
+            },
+            "technologies": ["JavaScript", "React Native", "Expo"],
+            "img": "/deposit-calculator.png",
+            "date": "2022-06-19",
+            "link": "https://snack.expo.dev/@antoninazz/deposit-calculator"
+        },
+        {
+            "title": {
+                "ua": "Калькулятор електроенергії",
+                "en": "Electricity Calculator"
+            },
+            "technologies": ["JavaScript", "React Native", "Expo"],
+            "img": "/electricity-calculator.png",
+            "date": "2022-06-20",
+            "link": "https://snack.expo.dev/@antoninazz/electricity-calculator"
+        },
+        {
+            "title": {
+                "ua": "Конвертер одиниць",
+                "en": "Unit Converter"
+            },
+            "technologies": ["JavaScript", "React Native", "Expo", "React Navigation"],
+            "img": "/unit-converter.png",
+            "date": "2022-05-22",
+            "link": "https://snack.expo.dev/@antoninazz/unit-converter"
+        }
     ]
 }
