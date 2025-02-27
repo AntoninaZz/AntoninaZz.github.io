@@ -463,7 +463,7 @@
                 "en": "Bubble Level"
             },
             "technologies": ["JavaScript", "React Native", "Expo", "Expo Sensors", "Expo Location"],
-            "img": "/waterpas.png",
+            "img": "/waterpas.jpg",
             "date": "2022-05-23",
             "link": "https://snack.expo.dev/@antoninazz/waterpas"
         },
@@ -525,7 +525,7 @@
             "technologies": ["JavaScript", "React Native", "Expo", "React Navigation"],
             "img": "/unit-converter.png",
             "date": "2022-05-22",
-            "link": "https://snack.expo.dev/@antoninazz/unit-converter"
+            "link": "https://snack.expo.dev/@antoninazz/unit-converter-v3"
         }
     ]
 }
