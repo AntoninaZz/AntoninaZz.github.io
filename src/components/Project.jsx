@@ -6,8 +6,10 @@ function Project({ info, lang }) {
         <a href={info.link} target='_blank'>
             <div className='project skill'>
                 <img src={info.img} alt={info.title[lang]} />
-                <h3>{info.title[lang]}</h3>
-                {info.technologies.map((tech, i) => (<div key={i}>{tech}</div>))}
+                <div className='text'>
+                    <h3>{info.title[lang]}</h3>
+                    {info.technologies.map((tech, i) => (<div className='tech skill' key={i} >{tech}</div>))}
+                </div>
             </div>
         </a>
     );

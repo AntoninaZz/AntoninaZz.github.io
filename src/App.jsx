@@ -45,7 +45,7 @@ function App() {
           <MoreBtn link="https://www.linkedin.com/in/antonina-zdebska-038baa351/details/certifications/" as='a' />
         </div>} />
       <Section title="Projects" contents={
-        <>{data.projects.map((project, i) => (<Project info={project} lang={lang} key={i} />))}</>
+        <div className='projects'>{data.projects.map((project, i) => (<Project info={project} lang={lang} key={i} />))}</div>
       }/>
       <Section title="Contact" />
     </>

@@ -209,3 +209,49 @@ h3 {
 .main-screen~div h2 {
     margin-top: 3em;
 }
+
+.projects {
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.project {
+    width: 95%;
+    height: 45vh;
+    position: relative;
+    background-color: var(--blue);
+}
+
+.project img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5em;
+    object-fit: cover;
+    object-position: top left;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.project .text {
+    position: relative;
+    top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project h3 {
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+
+.tech {
+    margin: 0.2em;
+    flex-grow: 1;
+}
+
+.tech:hover {
+    background-color: var(--lightblue);
+}
