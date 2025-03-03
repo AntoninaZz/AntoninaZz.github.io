@@ -596,6 +596,16 @@
             "img": "/cinema.png",
             "date": "2024-05-15",
             "link": "https://github.com/dembytskaanna/NetPractice"
+        },
+        {
+            "title": {
+                "ua": "Помічник орхомана",
+                "en": "Orchid Enthusiast Assistant"
+            },
+            "technologies": ["JavaScript", "React Native", "Expo", "React Navigation", "Expo Router"],
+            "img": "/orchid-assistant.png",
+            "date": "2024-12-16",
+            "link": "https://github.com/AntoninaZz/diploma"
         }
     ]
 }
