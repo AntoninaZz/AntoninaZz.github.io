@@ -526,6 +526,66 @@
             "img": "/unit-converter.png",
             "date": "2022-05-22",
             "link": "https://snack.expo.dev/@antoninazz/unit-converter-v3"
+        },
+        {
+            "title": {
+                "ua": "Список справ",
+                "en": "To-Do List App"
+            },
+            "technologies": ["JavaScript", "React", "HTML"],
+            "img": "/to-do-react.png",
+            "date": "2022-02-24",
+            "link": "https://github.com/AntoninaZz/ToDo_react"
+        },
+        {
+            "title": {
+                "ua": "Адаптивний вебсайт",
+                "en": "Responsive Website"
+            },
+            "technologies": ["HTML", "CSS", "Bootstrap"],
+            "img": "/bootstrap.png",
+            "date": "2022-06-07",
+            "link": "https://github.com/AntoninaZz/PracticeProject1"
+        },
+        {
+            "title": {
+                "ua": "Інтерактивна галерея рецептів",
+                "en": "Interactive Gallery of Confectionery Recipes"
+            },
+            "technologies": ["HTML", "CSS", "Responsive Design"],
+            "img": "/cakes.png",
+            "date": "2021-11-05",
+            "link": "https://github.com/AntoninaZz/Cakes"
+        },
+        {
+            "title": {
+                "ua": "Вебсайт-портфоліо",
+                "en": "Portfolio Website"
+            },
+            "technologies": ["JavaScript", "React", "Vite", "HTML", "CSS"],
+            "img": "/portfolio.png",
+            "date": "2025-02-20",
+            "link": "https://github.com/AntoninaZz/AntoninaZz.github.io"
+        },
+        {
+            "title": {
+                "ua": "Вебзастосунок для створення табів для сопілки",
+                "en": "Sopilka Tab Creator"
+            },
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "img": "/sopilka-tab-creator.png",
+            "date": "2023-05-06",
+            "link": "https://github.com/AntoninaZz/SopilkaTabCreator"
+        },
+        {
+            "title": {
+                "ua": "Контактна форма МІСТ",
+                "en": "MIST Feedback Form"
+            },
+            "technologies": ["JavaScript", "React", "React Hook Form", "CSS", "Google Apps Script", "HTML"],
+            "img": "/mist.png",
+            "date": "2023-05-08",
+            "link": "https://github.com/MaksymHorbachevsky/mist-form"
         }
     ]
 }
