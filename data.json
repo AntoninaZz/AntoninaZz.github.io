@@ -586,6 +586,16 @@
             "img": "/mist.png",
             "date": "2023-05-08",
             "link": "https://github.com/MaksymHorbachevsky/mist-form"
+        },
+        {
+            "title": {
+                "ua": "Система бронювання квитків у кінотеатрі",
+                "en": "Cinema Booking System"
+            },
+            "technologies": ["ASP.NET", "Entity Framework", "C#", "JWT Authentication", "AutoMapper", "Swagger", "SQL", "Microsoft SQL Server"],
+            "img": "/cinema.png",
+            "date": "2024-05-15",
+            "link": "https://github.com/dembytskaanna/NetPractice"
         }
     ]
 }
