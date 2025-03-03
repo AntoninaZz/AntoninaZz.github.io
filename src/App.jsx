@@ -39,11 +39,6 @@ function App() {
           <div>{data.achievements.map((a, i) => (<Achievement info={a} lang={lang} key={i} />))}</div>
         </div>
       } />
-      <Section title="Certificates" contents={
-        <div className='certificates'>
-          {data.certificates.map((certificate, i) => (<Certificate info={certificate} lang={lang} monthes={data.monthes} key={i} />))}
-          <MoreBtn link="https://www.linkedin.com/in/antonina-zdebska-038baa351/details/certifications/" as='a' />
-        </div>} />
       <Section title="Projects" contents={
         <div className='projects'>{data.projects.sort(function(a, b){
           let da = new Date(a.date);
@@ -51,6 +46,11 @@ function App() {
           return db - da;
         }).map((project, i) => (<Project info={project} lang={lang} key={i} />))}</div>
       }/>
+      <Section title="Certificates" contents={
+        <div className='certificates'>
+          {data.certificates.map((certificate, i) => (<Certificate info={certificate} lang={lang} monthes={data.monthes} key={i} />))}
+          <MoreBtn link="https://www.linkedin.com/in/antonina-zdebska-038baa351/details/certifications/" as='a' />
+        </div>} />
       <Section title="Contact" />
     </>
   )
