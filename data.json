@@ -606,6 +606,77 @@
             "img": "/orchid-assistant.png",
             "date": "2024-12-16",
             "link": "https://github.com/AntoninaZz/diploma"
+        },
+        {
+            "title": {
+                "ua": "Гра П'ятнашки",
+                "en": "Fifteen Puzzle Game"
+            },
+            "technologies": ["C#", ".NET", "Console App"],
+            "img": "/fifteen.png",
+            "date": "2020-10-04",
+            "link": "https://github.com/AntoninaZz/Fifteen"
+        },
+        {
+            "title": {
+                "ua": "Змійка",
+                "en": "Snake Game"
+            },
+            "technologies": ["C#", ".NET", "Console App", "OOP"],
+            "img": "/snake.png",
+            "date": "2020-11-20",
+            "link": "https://github.com/AntoninaZz/snake"
+        },
+        {
+            "title": {
+                "ua": "Конвертер температури",
+                "en": "Temperature Converter"
+            },
+            "technologies": ["C#", "Windows Forms", ".NET"],
+            "img": "/temperature-converter.png",
+            "date": "2020-10-17",
+            "link": "https://github.com/AntoninaZz/TemperatureConverter"
+        },
+        {
+            "title": {
+                "ua": "Застосунок для обробки масивів",
+                "en": "Array Processing Application"
+            },
+            "technologies": ["C#", "Windows Forms", ".NET"],
+            "img": "/array-app.png",
+            "date": "2020-10-23",
+            "link": "https://github.com/AntoninaZz/matrix"
+        },
+        {
+            "title": {
+                "ua": "Пакет підписок та сповіщень Joomla",
+                "en": "Joomla Subscription and Notifications Package"
+            },
+            "technologies": ["PHP", "CSS", "Joomla"],
+            "img": "/joomla.png",
+            "date": "2022-09-20",
+            "link": "https://github.com/AntoninaZz/pkg_subscription_and_notifications"
+        },
+        {
+            "title": {
+                "ua": "Будильник",
+                "en": "Alarm Clock"
+            },
+            "technologies": ["C#", "Windows Forms", ".NET", "Windows API"],
+            "img": "/alarm-clock.png",
+            "date": "2021-04-15",
+            "link": "https://github.com/AntoninaZz/alarm-clock"
+        }
+        ,
+        {
+            "title": {
+                "ua": "Будильник",
+                "en": "Alarm Clock"
+            },
+            "technologies": ["Assembly", "DOS"],
+            "img": "/alarm-clock-assembly.png",
+            "date": "2021-03-18",
+            "link": "https://github.com/AntoninaZz/alarm-clock-assembly"
         }
     ]
 }
