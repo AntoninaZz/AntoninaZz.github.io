@@ -214,6 +214,7 @@ h3 {
     width: 100%;
     display: inline-grid;
     grid-template-columns: 25% 25% 25% 25%;
+    position: relative;
 }
 
 .project {
@@ -262,4 +263,12 @@ h3 {
 
 .tech:hover {
     background-color: var(--lightblue);
+}
+
+.tile:nth-child(n + 10) .project {
+    display: none;
+}
+
+.more-btn.show~.tile:nth-child(n + 10) .project {
+    display: inline-block;
 }

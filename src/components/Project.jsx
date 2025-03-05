@@ -3,7 +3,7 @@ import '../css/Skill.css'
 
 function Project({ info, lang }) {
     return (
-        <a href={info.link} target='_blank'>
+        <a href={info.link} target='_blank' className='tile'>
             <div className='project skill'>
                 <img src={info.img} alt={info.title[lang]} />
                 <div className='text'>

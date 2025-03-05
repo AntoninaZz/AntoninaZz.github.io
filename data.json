@@ -589,7 +589,7 @@
         },
         {
             "title": {
-                "ua": "Система бронювання квитків у кінотеатрі",
+                "ua": "API кінотеатру",
                 "en": "Cinema Booking System"
             },
             "technologies": ["ASP.NET", "Entity Framework", "C#", "JWT Authentication", "AutoMapper", "Swagger", "SQL", "Microsoft SQL Server"],

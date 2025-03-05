@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import './css/App.css'
-import data from '../data.json'
+import { useState } from 'react';
+import './css/App.css';
+import data from '../data.json';
 import MainInfo from './components/MainInfo';
 import Section from './components/Section';
 import SubSection from './components/Subsection';
@@ -40,7 +40,7 @@ function App() {
         </div>
       } />
       <Section title="Projects" contents={
-        <div className='projects'>{data.projects.sort(function(a, b){
+        <div className='projects'><MoreBtn />{data.projects.sort(function(a, b){
           let da = new Date(a.date);
           let db = new Date(b.date);
           return db - da;
