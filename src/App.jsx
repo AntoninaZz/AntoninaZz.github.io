@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './css/App.css';
 import data from '../data.json';
 import MainInfo from './components/MainInfo';
@@ -16,6 +16,21 @@ import Project from './components/Project';
 
 function App() {
   const [lang, setLang] = useState('en');
+  const [lastCommit, setLastCommit] = useState();
+
+  useEffect(() => {
+    fetch(
+      "https://api.github.com/repos/AntoninaZz/AntoninaZz.github.io/branches/master"
+    )
+      .then(response => {
+        response.json().then(json => {
+          setLastCommit(json.commit.commit.author.date);
+        });
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  }, []);
 
   return (
     <>
@@ -40,17 +55,21 @@ function App() {
         </div>
       } />
       <Section title={lang == 'ua' ? "Проєкти" : "Projects"} contents={
-        <div className='projects'><MoreBtn />{data.projects.sort(function(a, b){
+        <div className='projects'><MoreBtn />{data.projects.sort(function (a, b) {
           let da = new Date(a.date);
           let db = new Date(b.date);
           return db - da;
         }).map((project, i) => (<Project info={project} lang={lang} key={i} />))}</div>
-      }/>
+      } />
       <Section title={lang == 'ua' ? "Сертифікати" : "Certificates"} contents={
         <div className='certificates'>
           {data.certificates.map((certificate, i) => (<Certificate info={certificate} lang={lang} monthes={data.monthes} key={i} />))}
           <MoreBtn link="https://www.linkedin.com/in/antonina-zdebska-038baa351/details/certifications/" as='a' />
         </div>} />
+      <footer>
+        <span>{data.profile.name[lang]}</span>
+        <span>© {new Date(lastCommit).getFullYear()}</span>
+      </footer>
     </>
   )
 }
