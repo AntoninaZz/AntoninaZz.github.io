@@ -364,7 +364,12 @@ footer {
     }
 
     .certificate {
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 100%;
+    }
+
+    img.certificate {
+        width: 100%;
+        height: fit-content;
     }
 }
 @media (max-width: 768px) {
@@ -439,15 +444,6 @@ footer {
 
     .ed-photo {
         width: 50%;
-    }
-
-    .certificate {
-        grid-template-columns: 100%;
-    }
-
-    img.certificate {
-        width: 100%;
-        height: fit-content;
     }
 }
 @media (max-width: 576px) {
