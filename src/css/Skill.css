@@ -336,6 +336,14 @@ footer {
     ul {
         padding-left: 1.5em;
     }
+
+    .certificate {
+        grid-template-columns: 30% 70%;
+    }
+
+    img.certificate {
+        height: 100%;
+    }
 }
 @media (max-width: 992px) {
     .projects {
@@ -353,6 +361,10 @@ footer {
 
     .main-screen h1 {
         font-size: 1.7em;
+    }
+
+    .certificate {
+        grid-template-columns: 50% 50%;
     }
 }
 @media (max-width: 768px) {
@@ -427,6 +439,15 @@ footer {
 
     .ed-photo {
         width: 50%;
+    }
+
+    .certificate {
+        grid-template-columns: 100%;
+    }
+
+    img.certificate {
+        width: 100%;
+        height: fit-content;
     }
 }
 @media (max-width: 576px) {
