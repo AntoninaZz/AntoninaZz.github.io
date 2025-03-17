@@ -161,11 +161,15 @@ img.certificate {
 }
 
 .more-btn::after {
-    content: '⏷';
+    content: '▼';
+    display: inline-block;
+    transform: scaleY(0.5);
 }
 
 .more-btn.show::after {
-    content: '⏶';
+    content: '▲';
+    display: inline-block;
+    transform: scaleY(0.5);
 }
 
 a.more-btn {
