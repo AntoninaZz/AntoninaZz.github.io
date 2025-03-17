@@ -378,6 +378,10 @@ footer {
         width: 100%;
         height: fit-content;
     }
+
+    .certificate-info {
+        margin: 1em 0.5em;
+    }
 }
 
 @media (max-width: 768px) {
