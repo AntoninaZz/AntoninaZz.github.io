@@ -60,12 +60,12 @@
             "en": "For 6 years I served as the deputy head of the group."
         },
         {
-            "ua": "Брала участь у міжнародній командній студентській олімпіаді з програмування (ІСРС) у 2021-2024 роках.",
+            "ua": "Брала участь в міжнародній командній студентській олімпіаді з програмування (ІСРС) у 2021-2024 роках.",
             "en": "I participated in the International Student Programming Contest (ISPC) in 2021-2024."
         },
         {
-            "ua": "Пройшла практики у SoftServe: З-тижневу у напрямі React у 2023 та 4-тижневу у напрямі React, ASP.NET у 2024.",
-            "en": "I completed an internship at SoftServe: a 2-week internship in React in 2023 and a 4-week internship in React, ASP.NET in 2024."
+            "ua": "Пройшла практики у SoftServe: З-тижневу у напрямі React у 2023 та 4-тижневу у напрямі ASP.NET у 2024.",
+            "en": "I completed an internship at SoftServe: a 2-week internship in React in 2023 and a 4-week internship in ASP.NET in 2024."
         }
     ],
     "certificates": [
@@ -666,8 +666,7 @@
             "img": "/alarm-clock.png",
             "date": "2021-04-15",
             "link": "https://github.com/AntoninaZz/alarm-clock"
-        }
-        ,
+        },
         {
             "title": {
                 "ua": "Будильник",
@@ -677,6 +676,16 @@
             "img": "/alarm-clock-assembly.png",
             "date": "2021-03-18",
             "link": "https://github.com/AntoninaZz/alarm-clock-assembly"
+        },
+        {
+            "title": {
+                "ua": "Гра на пам'ять My Mind",
+                "en": "My Mind Memory Game"
+            },
+            "technologies": ["JavaScript", "React Native", "Expo", "AsyncStorage", "TypeScript", "Appsflyer", "Firebase", "OneSignal"],
+            "img": "/my-mind.jpg",
+            "date": "2025-03-14",
+            "link": "https://github.com/AntoninaZz/my-mind"
         }
     ]
 }
