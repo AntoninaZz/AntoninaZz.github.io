@@ -1,6 +1,6 @@
 import { arrayOf, object } from 'prop-types';
 import MoreBtn from './MoreBtn';
-import '../css/SkillSet.css';
+import '../css/Style.css';
 
 function SkillSet({ skills }) {
     return (

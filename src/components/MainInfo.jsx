@@ -1,6 +1,6 @@
 import Contact from "./Contact";
 import { object, string } from 'prop-types';
-import '../css/Skill.css'
+import '../css/Style.css'
 
 function MainInfo({ language, data }) {
 

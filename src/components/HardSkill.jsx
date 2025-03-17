@@ -1,5 +1,5 @@
 import { object } from 'prop-types';
-import '../css/Skill.css';
+import '../css/Style.css';
 import '../css/colors.css';
 
 function HardSkill({ info }) {

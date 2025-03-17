@@ -1,5 +1,11 @@
 @import "./colors.css";
 
+.set {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
 .skill {
     color: var(--black);
     background-color: var(--lightblue);

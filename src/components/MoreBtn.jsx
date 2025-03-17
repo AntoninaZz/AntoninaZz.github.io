@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { string } from 'prop-types';
-import '../css/Skill.css'
+import '../css/Style.css'
 
 function MoreBtn({ link, as: Component = 'button', }) {
     const [className, setClassName] = useState("more-btn");

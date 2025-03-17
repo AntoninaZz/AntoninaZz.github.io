@@ -1,5 +1,5 @@
 import { object, string } from 'prop-types';
-import '../css/Skill.css'
+import '../css/Style.css'
 
 function Education({ info, lang }) {
     return (
