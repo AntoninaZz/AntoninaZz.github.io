@@ -4,7 +4,7 @@ import '../css/Style.css'
 function SoftSkill({ info, lang }) {
     return (
         <>
-            <div className='skill'>{info[lang]}</div>
+            <div className='soft skill'>{info[lang]}</div>
         </>
     );
 }

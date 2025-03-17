@@ -40,7 +40,7 @@ function App() {
         <Section title={lang == 'ua' ? "Навички" : "Skills"}
           contents={
             <div className='skills-container'>
-              <SubSection title="Soft Skills" contents={data.skills.soft.map((skill, i) => (<SoftSkill info={skill} lang={lang} key={i} className="soft" />))} />
+              <SubSection title="Soft Skills" contents={<div className='soft-container'>{data.skills.soft.map((skill, i) => (<SoftSkill info={skill} lang={lang} key={i} className="soft" />))}</div>} />
               <SubSection title={lang == 'ua' ? "Мови" : "Languages"} contents={data.languages.map((language, i) => (<Language info={language} lang={lang} key={i} />))} />
             </div>
           } />

@@ -264,6 +264,7 @@ h3 {
 .tech {
     margin: 0.2em;
     flex-grow: 1;
+    text-align: center;
 }
 
 .tech:hover {
@@ -276,6 +277,16 @@ h3 {
 
 .more-btn.show~.tile:nth-child(n + 10) .project {
     display: inline-block;
+}
+
+.soft-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.soft.skill {
+    flex-grow: 1;
+    text-align: center;
 }
 
 footer {
