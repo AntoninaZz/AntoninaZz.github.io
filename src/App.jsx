@@ -9,7 +9,6 @@ import SkillSet from './components/SkillSet';
 import HardSkill from './components/HardSkill';
 import SoftSkill from './components/SoftSkill';
 import Language from './components/Language';
-import Achievement from './components/Achievement';
 import Certificate from './components/Certificate';
 import MoreBtn from './components/MoreBtn';
 import Project from './components/Project';
@@ -51,7 +50,7 @@ function App() {
         <div className='ed-container'>
           <div className='degrees'>{data.education.map((ed, i) => (<Education info={ed} lang={lang} key={i} />))}</div>
           <img src="/education-photo.png" alt="Antonina Zdebska Masters degree photo" className='ed-photo' />
-          <div>{data.achievements.map((a, i) => (<Achievement info={a} lang={lang} key={i} />))}</div>
+          <ul>{data.achievements.map((a, i) => (<li key={i} >{a[lang]}</li>))}</ul>
         </div>
       } />
       <Section title={lang == 'ua' ? "Проєкти" : "Projects"} contents={
