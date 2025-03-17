@@ -142,7 +142,7 @@ img.certificate {
 }
 
 .lang::before {
-    content: '➤ ';
+    content: '○ ';
 }
 
 .more-btn {
