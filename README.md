@@ -1,8 +1,17 @@
-# React + Vite
+# Portfolio Website
+This is a personal portfolio website built with React and Vite. It showcases my projects, skills, education, and certifications.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Multilingual support (English and Ukrainian)
+- Dynamic project listing
+- Skills and certifications display
+- Responsive design
 
-Currently, two official plugins are available:
+## Technologies Used
+- React.js
+- Vite
+- CSS
+- JavaScript
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deployment
+The project is deployed using [GitHub Pages](https://antoninazz.github.io/). A GitHub Actions workflow (`deploy.yml`) automates the deployment process.
