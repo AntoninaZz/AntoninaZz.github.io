@@ -18,9 +18,9 @@
   /* background pattern */
   --s: 160px;
   /* control the size*/
-  --c1: #191fcc;
-  --c2: #4603e2;
-  --c3: #003acc;
+  --c1: #0e154e;
+  --c2: #020435;
+  --c3: #050f40;
 
   background:
     conic-gradient(from 15deg at 86.6%,
