@@ -63,7 +63,7 @@ function App() {
       <Section title={lang == 'ua' ? "Сертифікати" : "Certificates"} contents={
         <div className='certificates'>
           {data.certificates.map((certificate, i) => (<Certificate info={certificate} lang={lang} monthes={data.monthes} key={i} />))}
-          <MoreBtn link="https://www.linkedin.com/in/antonina-zdebska-038baa351/details/certifications/" as='a' />
+          <MoreBtn link={data.allCertificates} as='a' />
         </div>} />
       <footer>
         <span>{data.profile.name[lang]}</span>
