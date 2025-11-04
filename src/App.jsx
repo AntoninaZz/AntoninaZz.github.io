@@ -3,7 +3,7 @@ import './css/App.css';
 import data from '../data.json';
 import MainInfo from './components/MainInfo';
 import Section from './components/Section';
-import SubSection from './components/Subsection';
+import SubSection from './components/SubSection';
 import Education from './components/Education';
 import SkillSet from './components/SkillSet';
 import HardSkill from './components/HardSkill';
