@@ -158,200 +158,80 @@
             }
         ],
         "hard": [
-            {
-                "skill": "JavaScript",
-                "level": 5
-            },
-            {
-                "skill": "React Native",
-                "level": 5
-            },
-            {
-                "skill": "React.js",
-                "level": 3
-            },
-            {
-                "skill": "Node.js",
-                "level": 4
-            },
-            {
-                "skill": "HTML5",
-                "level": 5
-            },
-            {
-                "skill": "CSS3",
-                "level": 5
-            },
-            {
-                "skill": "Expo",
-                "level": 5
-            },
-            {
-                "skill": "Vite",
-                "level": 3
-            },
-            {
-                "skill": "ASP.NET",
-                "level": 2
-            },
-            {
-                "skill": "jQuery",
-                "level": 2
-            },
-            {
-                "skill": "UI",
-                "level": 3
-            },
-            {
-                "skill": "Figma",
-                "level": 3
-            },
-            {
-                "skill": "Bootstrap",
-                "level": 4
-            },
-            {
-                "skill": "Responsive Design",
-                "level": 4
-            },
-            {
-                "skill": "Cross-Browser Compatibility",
-                "level": 3
-            },
-            {
-                "skill": "C#",
-                "level": 4
-            },
-            {
-                "skill": "OOP",
-                "level": 3
-            },
-            {
-                "skill": ".NET Framework",
-                "level": 3
-            },
-            {
-                "skill": "Git",
-                "level": 4
-            },
-            {
-                "skill": "GitHub",
-                "level": 4
-            },
-            {
-                "skill": "Visual Studio",
-                "level": 4
-            },
-            {
-                "skill": "Visual Studio Code",
-                "level": 5
-            },
-            {
-                "skill": "Agile Methodologies",
-                "level": 4
-            },
-            {
-                "skill": "Jira",
-                "level": 3
-            },
-            {
-                "skill": "Quality Assurance",
-                "level": 4
-            },
-            {
-                "skill": "Mocha (JavaScript Framework)",
-                "level": 3
-            },
-            {
-                "skill": "Chai.js",
-                "level": 3
-            },
-            {
-                "skill": "Firebase",
-                "level": 2
-            },
-            {
-                "skill": "Microsoft SQL Server",
-                "level": 4
-            },
-            {
-                "skill": "SQL",
-                "level": 3
-            },
-            {
-                "skill": "Autodesk 3ds Max",
-                "level": 3,
-                "field": "3D"
-            },
-            {
-                "skill": "Zbrush",
-                "level": 5,
-                "field": "3D"
-            },
-            {
-                "skill": "Topogun 2",
-                "level": 4,
-                "field": "3D"
-            },
-            {
-                "skill": "RizomUV",
-                "level": 5,
-                "field": "3D"
-            },
-            {
-                "skill": "Marmoset Toolbag 3",
-                "level": 4,
-                "field": "3D"
-            },
-            {
-                "skill": "Substance Painter",
-                "level": 4,
-                "field": "3D"
-            },
-            {
-                "skill": "Internet of Things (IoT)",
-                "level": 2
-            },
-            {
-                "skill": "Embedded systems",
-                "level": 4
-            },
-            {
-                "skill": "Tinkercad",
-                "level": 4
-            },
-            {
-                "skill": "Cisco Packet Tracer",
-                "level": 3
-            },
-            {
-                "skill": "Multithreading and Parallel Programming",
-                "level": 2
-            },
-            {
-                "skill": "Python",
-                "level": 2
-            },
-            {
-                "skill": "Assembly",
-                "level": 4
-            },
-            {
-                "skill": "PHP",
-                "level": 2
-            },
-            {
-                "skill": "Linux bash",
-                "level": 2
-            },
-            {
-                "skill": "MS DOS",
-                "level": 2
-            },
-            {
-                "skill": "Windows PowerShell",
-                "level": 2
-            }
+            { "skill": "Next.js (App Router)", "level": 5 },
+            { "skill": "React.js", "level": 5 },
+            { "skill": "TypeScript", "level": 5 },
+            { "skill": "JavaScript (ES6+)", "level": 5 },
+            { "skill": "React Hooks", "level": 5 },
+            { "skill": "Next.js API Routes", "level": 5 },
+            { "skill": "Tailwind CSS", "level": 5 },
+            { "skill": "ShadCN/UI Components", "level": 5 },
+            { "skill": "React Hook Form", "level": 5 },
+            { "skill": "Zod (Validation)", "level": 5 },
+            { "skill": "HTML5", "level": 5 },
+            { "skill": "CSS3", "level": 5 },
+            { "skill": "Responsive Design", "level": 5 },
+            { "skill": "Vercel Deployment", "level": 5 },
+            { "skill": "MongoDB", "level": 5 },
+            { "skill": "Mongoose", "level": 5 },
+            { "skill": "Node.js", "level": 4 },
+            { "skill": "RESTful API Design", "level": 4 },
+            { "skill": "Backend Integration", "level": 4 },
+            { "skill": "Full-Stack Development", "level": 4 },
+            { "skill": "UI/UX Design", "level": 4 },
+            { "skill": "Bootstrap", "level": 4 },
+            { "skill": "React Hot Toast", "level": 4 },
+            { "skill": "date-fns", "level": 4 },
+            { "skill": "Chart.js", "level": 4 },
+            { "skill": "Lucide React (Icons)", "level": 4 },
+            { "skill": "Clerk Authentication", "level": 4 },
+            { "skill": "LiqPay API Integration", "level": 4 },
+            { "skill": "Nova Poshta API Integration", "level": 4 },
+            { "skill": "ESLint", "level": 4 },
+            { "skill": "Prettier", "level": 4 },
+            { "skill": "Git", "level": 4 },
+            { "skill": "GitHub", "level": 4 },
+            { "skill": "Visual Studio Code", "level": 5 },
+            { "skill": "Frontend Architecture Design", "level": 4 },
+            { "skill": "Quality Assurance", "level": 4 },
+            { "skill": "Agile Methodologies", "level": 4 },
+            { "skill": "Visual Studio", "level": 4 },
+            { "skill": "Microsoft SQL Server", "level": 4 },
+            { "skill": "C#", "level": 4 },
+            { "skill": "OOP", "level": 4 },
+            { "skill": "Environment Variables", "level": 5 },
+            { "skill": "Expo", "level": 5 },
+            { "skill": "React Native", "level": 5 },
+            { "skill": "Vite", "level": 3 },
+            { "skill": "SWR (React Hooks for Data Fetching)", "level": 3 },
+            { "skill": "PostCSS", "level": 3 },
+            { "skill": "Cross-Browser Compatibility", "level": 3 },
+            { "skill": "Figma", "level": 3 },
+            { "skill": "Jira", "level": 3 },
+            { "skill": "SQL", "level": 3 },
+            { "skill": "Mocha (JavaScript Framework)", "level": 3 },
+            { "skill": "Chai.js", "level": 3 },
+            { "skill": "ASP.NET", "level": 2 },
+            { "skill": ".NET Framework", "level": 3 },
+            { "skill": "Firebase", "level": 2 },
+            { "skill": "jQuery", "level": 2 },
+            { "skill": "Python", "level": 2 },
+            { "skill": "PHP", "level": 2 },
+            { "skill": "Linux bash", "level": 2 },
+            { "skill": "MS DOS", "level": 2 },
+            { "skill": "Windows PowerShell", "level": 2 },
+            { "skill": "Assembly", "level": 4 },
+            { "skill": "Embedded systems", "level": 4 },
+            { "skill": "Tinkercad", "level": 4 },
+            { "skill": "Cisco Packet Tracer", "level": 3 },
+            { "skill": "Internet of Things (IoT)", "level": 2 },
+            { "skill": "Multithreading and Parallel Programming", "level": 2 },
+            { "skill": "Zbrush", "level": 5, "field": "3D" },
+            { "skill": "RizomUV", "level": 5, "field": "3D" },
+            { "skill": "Topogun 2", "level": 4, "field": "3D" },
+            { "skill": "Substance Painter", "level": 4, "field": "3D" },
+            { "skill": "Marmoset Toolbag 3", "level": 4, "field": "3D" },
+            { "skill": "Autodesk 3ds Max", "level": 3, "field": "3D" }
         ]
     },
     "languages": [
@@ -686,6 +566,26 @@
             "img": "/my-mind.jpg",
             "date": "2025-03-14",
             "link": "https://github.com/AntoninaZz/my-mind"
+        },
+        {
+            "title": {
+                "ua": "Магазин в'язаних гачком іграшок ручної роботи",
+                "en": "E-commerce Handmade Crochet Toys Store"
+            },
+            "technologies": ["NextJS", "React", "TypeScript", "Tailwind CSS", "Vercel", "MongoDB", "Clerk", "LiqPay", "Nova Poshta API"],
+            "img": "/hm-shop.jpg",
+            "date": "2025-11-04",
+            "link": "https://github.com/AntoninaZz/hm-shop"
+        },
+        {
+            "title": {
+                "ua": "Aдміністративна панель для керування інтернет-магазином",
+                "en": "Administrative panel for managing an e-commerce store"
+            },
+            "technologies": ["NextJS", "React", "TypeScript", "Tailwind CSS", "Vercel", "MongoDB", "Clerk", "LiqPay", "Nova Poshta API", "Node.js", "ShadCN/UI", "Zod", "Chart.js"],
+            "img": "/hm-shop-admin.jpg",
+            "date": "2025-11-04",
+            "link": "https://github.com/AntoninaZz/hm-shop-admin"
         }
     ]
 }
