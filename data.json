@@ -1011,8 +1011,8 @@
         },
         {
             "title": {
-                "ua": "Магазин в'язаних гачком іграшок ручної роботи",
-                "en": "E-commerce Handmade Crochet Toys Store"
+                "ua": "Магазин іграшок ручної роботи",
+                "en": "E-commerce Handmade Toys Store"
             },
             "technologies": [
                 "NextJS",
@@ -1031,8 +1031,8 @@
         },
         {
             "title": {
-                "ua": "Адмінпанель керування онлайн-магазином",
-                "en": "Admin panel for managing an e-commerce store"
+                "ua": "Панель керування онлайн-магазином",
+                "en": "Admin panel for an e-commerce store"
             },
             "technologies": [
                 "NextJS",
