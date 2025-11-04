@@ -1031,8 +1031,8 @@
         },
         {
             "title": {
-                "ua": "Aдміністративна панель керування онлайн-магазином",
-                "en": "Administrative panel for managing an e-commerce store"
+                "ua": "Адмінпанель керування онлайн-магазином",
+                "en": "Admin panel for managing an e-commerce store"
             },
             "technologies": [
                 "NextJS",
