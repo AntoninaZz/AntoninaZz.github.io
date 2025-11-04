@@ -10,8 +10,8 @@
             "en": "Software Developer"
         },
         "about": {
-            "ua": "Відповідальна та працьовита, завжди прагну вдосконалюватися та дізнаватися нове. Добре зосереджуюсь на завданнях та виконую їх з максимальною ретельністю. Доброзичлива й дружелюбна, позитивна, не конфліктна.",
-            "en": "I am responsible and hardworking, always striving to improve and learn new things. I focus well on tasks and perform them with the utmost care. Furthermore, I am friendly, positive and non-conflictive."
+            "ua": "Відповідальна та працьовита, завжди прагну вдосконалюватися та дізнаватися нове. Швидко навчаюся, не боюсь визнавати, що чогось не знаю, і завжди готова звернутися по допомогу. Добре зосереджуюсь на завданнях та виконую їх з максимальною ретельністю й увагою до деталей. Добре співпрацюю в команді, ввічлива, позитивна та вмію уникати конфліктів.",
+            "en": "I am responsible and hardworking, always striving to improve and learn new things. I am a quick learner, not afraid to admit when I don't know something, and always ready to ask for help. I focus well on tasks and perform them with the utmost care and attention to detail. Likewise, I am polite, positive, work well in a team and know how to avoid conflicts."
         }
     },
     "contacts": {
@@ -121,8 +121,16 @@
                 "en": "Willingness to learn"
             },
             {
+                "ua": "Швидке навчання",
+                "en": "Fast learning"
+            },
+            {
                 "ua": "Розв'язання проблем",
                 "en": "Problem-solving"
+            },
+            {
+                "ua": "Готовність просити про допомогу",
+                "en": "Willingness to ask for help"
             },
             {
                 "ua": "Адаптивність",
@@ -155,85 +163,384 @@
             {
                 "ua": "Неконфліктність",
                 "en": "Non-conflict"
+            },
+            {
+                "ua": "Ввічливість",
+                "en": "Politeness"
             }
         ],
         "hard": [
-            { "skill": "Next.js (App Router)", "level": 5, "field": "Frontend" },
-            { "skill": "React.js", "level": 5, "field": "Frontend" },
-            { "skill": "TypeScript", "level": 5, "field": "Frontend" },
-            { "skill": "JavaScript (ES6+)", "level": 5, "field": "Frontend" },
-            { "skill": "React Hooks", "level": 5, "field": "Frontend" },
-            { "skill": "Next.js API Routes", "level": 5, "field": "Frontend" },
-            { "skill": "Tailwind CSS", "level": 5, "field": "Frontend" },
-            { "skill": "ShadCN/UI Components", "level": 5, "field": "Frontend" },
-            { "skill": "React Hook Form", "level": 5, "field": "Frontend" },
-            { "skill": "Zod (Validation)", "level": 5, "field": "Frontend" },
-            { "skill": "HTML5", "level": 5, "field": "Frontend" },
-            { "skill": "CSS3", "level": 5, "field": "Frontend" },
-            { "skill": "Responsive Design", "level": 5, "field": "Frontend" },
-            { "skill": "Vercel Deployment", "level": 5, "field": "Frontend" },
-            { "skill": "MongoDB", "level": 5, "field": "Backend" },
-            { "skill": "Mongoose", "level": 5, "field": "Backend" },
-            { "skill": "Node.js", "level": 4, "field": "Backend" },
-            { "skill": "RESTful API Design", "level": 4, "field": "Backend" },
-            { "skill": "Backend Integration", "level": 4, "field": "Backend" },
-            { "skill": "Full-Stack Development", "level": 4, "field": "Backend" },
-            { "skill": "UI/UX Design", "level": 4, "field": "Frontend" },
-            { "skill": "Bootstrap", "level": 4, "field": "Frontend" },
-            { "skill": "React Hot Toast", "level": 4, "field": "Frontend" },
-            { "skill": "date-fns", "level": 4, "field": "Frontend" },
-            { "skill": "Chart.js", "level": 4, "field": "Frontend" },
-            { "skill": "Lucide React (Icons)", "level": 4, "field": "Frontend" },
-            { "skill": "Clerk Authentication", "level": 4, "field": "Frontend" },
-            { "skill": "LiqPay API Integration", "level": 4, "field": "Backend" },
-            { "skill": "Nova Poshta API Integration", "level": 4, "field": "Backend" },
-            { "skill": "ESLint", "level": 4, "field": "Tools" },
-            { "skill": "Prettier", "level": 4, "field": "Tools" },
-            { "skill": "Git", "level": 4, "field": "Tools" },
-            { "skill": "GitHub", "level": 4, "field": "Tools" },
-            { "skill": "Visual Studio Code", "level": 5, "field": "Tools" },
-            { "skill": "Frontend Architecture Design", "level": 4, "field": "Frontend" },
-            { "skill": "Quality Assurance", "level": 4, "field": "Testing" },
-            { "skill": "Agile Methodologies", "level": 4, "field": "Other Tech" },
-            { "skill": "Visual Studio", "level": 4, "field": "Tools" },
-            { "skill": "Microsoft SQL Server", "level": 4, "field": "Backend" },
-            { "skill": "C#", "level": 4, "field": "Backend" },
-            { "skill": "OOP", "level": 4, "field": "Other Tech" },
-            { "skill": "Environment Variables", "level": 5, "field": "Backend" },
-            { "skill": "Expo", "level": 5, "field": "Frontend" },
-            { "skill": "React Native", "level": 5, "field": "Frontend" },
-            { "skill": "Vite", "level": 3, "field": "Tools" },
-            { "skill": "SWR (React Hooks for Data Fetching)", "level": 3, "field": "Frontend" },
-            { "skill": "PostCSS", "level": 3, "field": "Frontend" },
-            { "skill": "Cross-Browser Compatibility", "level": 3, "field": "Frontend" },
-            { "skill": "Figma", "level": 3, "field": "Tools" },
-            { "skill": "Jira", "level": 3, "field": "Tools" },
-            { "skill": "SQL", "level": 3, "field": "Backend" },
-            { "skill": "Mocha (JavaScript Framework)", "level": 3, "field": "Testing" },
-            { "skill": "Chai.js", "level": 3, "field": "Testing" },
-            { "skill": "ASP.NET", "level": 2, "field": "Backend" },
-            { "skill": ".NET Framework", "level": 3, "field": "Backend" },
-            { "skill": "Firebase", "level": 2, "field": "Backend" },
-            { "skill": "jQuery", "level": 2, "field": "Frontend" },
-            { "skill": "Python", "level": 2, "field": "Other Tech" },
-            { "skill": "PHP", "level": 2, "field": "Backend" },
-            { "skill": "Linux bash", "level": 2, "field": "System Programming" },
-            { "skill": "MS DOS", "level": 2, "field": "System Programming" },
-            { "skill": "Windows PowerShell", "level": 2, "field": "System Programming" },
-            { "skill": "Assembly", "level": 4, "field": "System Programming" },
-            { "skill": "Embedded systems", "level": 4, "field": "System Programming" },
-            { "skill": "Tinkercad", "level": 4, "field": "IoT" },
-            { "skill": "Cisco Packet Tracer", "level": 3, "field": "IoT" },
-            { "skill": "Internet of Things (IoT)", "level": 2, "field": "IoT" },
-            { "skill": "Multithreading and Parallel Programming", "level": 2, "field": "System Programming" },
-            { "skill": "Zbrush", "level": 5, "field": "3D" },
-            { "skill": "RizomUV", "level": 5, "field": "3D" },
-            { "skill": "Topogun 2", "level": 4, "field": "3D" },
-            { "skill": "Substance Painter", "level": 4, "field": "3D" },
-            { "skill": "Marmoset Toolbag 3", "level": 4, "field": "3D" },
-            { "skill": "Autodesk 3ds Max", "level": 3, "field": "3D" }
+            {
+                "skill": "Next.js (App Router)",
+                "level": 5,
+                "field": "Frontend"
+            },
+            {
+                "skill": "React.js",
+                "level": 5,
+                "field": "Frontend"
+            },
+            {
+                "skill": "TypeScript",
+                "level": 5,
+                "field": "Frontend"
+            },
+            {
+                "skill": "JavaScript (ES6+)",
+                "level": 5,
+                "field": "Frontend"
+            },
+            {
+                "skill": "React Hooks",
+                "level": 5,
+                "field": "Frontend"
+            },
+            {
+                "skill": "Next.js API Routes",
+                "level": 5,
+                "field": "Frontend"
+            },
+            {
+                "skill": "Tailwind CSS",
+                "level": 5,
+                "field": "Frontend"
+            },
+            {
+                "skill": "ShadCN/UI Components",
+                "level": 5,
+                "field": "Frontend"
+            },
+            {
+                "skill": "React Hook Form",
+                "level": 5,
+                "field": "Frontend"
+            },
+            {
+                "skill": "Zod (Validation)",
+                "level": 5,
+                "field": "Frontend"
+            },
+            {
+                "skill": "HTML5",
+                "level": 5,
+                "field": "Frontend"
+            },
+            {
+                "skill": "CSS3",
+                "level": 5,
+                "field": "Frontend"
+            },
+            {
+                "skill": "Responsive Design",
+                "level": 5,
+                "field": "Frontend"
+            },
+            {
+                "skill": "Vercel Deployment",
+                "level": 5,
+                "field": "Frontend"
+            },
+            {
+                "skill": "MongoDB",
+                "level": 5,
+                "field": "Backend"
+            },
+            {
+                "skill": "Mongoose",
+                "level": 5,
+                "field": "Backend"
+            },
+            {
+                "skill": "Node.js",
+                "level": 4,
+                "field": "Backend"
+            },
+            {
+                "skill": "RESTful API Design",
+                "level": 4,
+                "field": "Backend"
+            },
+            {
+                "skill": "Backend Integration",
+                "level": 4,
+                "field": "Backend"
+            },
+            {
+                "skill": "Full-Stack Development",
+                "level": 4,
+                "field": "Backend"
+            },
+            {
+                "skill": "UI/UX Design",
+                "level": 4,
+                "field": "Frontend"
+            },
+            {
+                "skill": "Bootstrap",
+                "level": 4,
+                "field": "Frontend"
+            },
+            {
+                "skill": "React Hot Toast",
+                "level": 4,
+                "field": "Frontend"
+            },
+            {
+                "skill": "date-fns",
+                "level": 4,
+                "field": "Frontend"
+            },
+            {
+                "skill": "Chart.js",
+                "level": 4,
+                "field": "Frontend"
+            },
+            {
+                "skill": "Lucide React (Icons)",
+                "level": 4,
+                "field": "Frontend"
+            },
+            {
+                "skill": "Clerk Authentication",
+                "level": 4,
+                "field": "Frontend"
+            },
+            {
+                "skill": "LiqPay API Integration",
+                "level": 4,
+                "field": "Backend"
+            },
+            {
+                "skill": "Nova Poshta API Integration",
+                "level": 4,
+                "field": "Backend"
+            },
+            {
+                "skill": "ESLint",
+                "level": 4,
+                "field": "Tools"
+            },
+            {
+                "skill": "Prettier",
+                "level": 4,
+                "field": "Tools"
+            },
+            {
+                "skill": "Git",
+                "level": 4,
+                "field": "Tools"
+            },
+            {
+                "skill": "GitHub",
+                "level": 4,
+                "field": "Tools"
+            },
+            {
+                "skill": "Visual Studio Code",
+                "level": 5,
+                "field": "Tools"
+            },
+            {
+                "skill": "Frontend Architecture Design",
+                "level": 4,
+                "field": "Frontend"
+            },
+            {
+                "skill": "Quality Assurance",
+                "level": 4,
+                "field": "Testing"
+            },
+            {
+                "skill": "Agile Methodologies",
+                "level": 4,
+                "field": "Other Tech"
+            },
+            {
+                "skill": "Visual Studio",
+                "level": 4,
+                "field": "Tools"
+            },
+            {
+                "skill": "Microsoft SQL Server",
+                "level": 4,
+                "field": "Backend"
+            },
+            {
+                "skill": "C#",
+                "level": 4,
+                "field": "Backend"
+            },
+            {
+                "skill": "OOP",
+                "level": 4,
+                "field": "Other Tech"
+            },
+            {
+                "skill": "Environment Variables",
+                "level": 5,
+                "field": "Backend"
+            },
+            {
+                "skill": "Expo",
+                "level": 5,
+                "field": "Frontend"
+            },
+            {
+                "skill": "React Native",
+                "level": 5,
+                "field": "Frontend"
+            },
+            {
+                "skill": "Vite",
+                "level": 3,
+                "field": "Tools"
+            },
+            {
+                "skill": "SWR (React Hooks for Data Fetching)",
+                "level": 3,
+                "field": "Frontend"
+            },
+            {
+                "skill": "PostCSS",
+                "level": 3,
+                "field": "Frontend"
+            },
+            {
+                "skill": "Cross-Browser Compatibility",
+                "level": 3,
+                "field": "Frontend"
+            },
+            {
+                "skill": "Figma",
+                "level": 3,
+                "field": "Tools"
+            },
+            {
+                "skill": "Jira",
+                "level": 3,
+                "field": "Tools"
+            },
+            {
+                "skill": "SQL",
+                "level": 3,
+                "field": "Backend"
+            },
+            {
+                "skill": "Mocha (JavaScript Framework)",
+                "level": 3,
+                "field": "Testing"
+            },
+            {
+                "skill": "Chai.js",
+                "level": 3,
+                "field": "Testing"
+            },
+            {
+                "skill": "ASP.NET",
+                "level": 2,
+                "field": "Backend"
+            },
+            {
+                "skill": ".NET Framework",
+                "level": 3,
+                "field": "Backend"
+            },
+            {
+                "skill": "Firebase",
+                "level": 2,
+                "field": "Backend"
+            },
+            {
+                "skill": "jQuery",
+                "level": 2,
+                "field": "Frontend"
+            },
+            {
+                "skill": "Python",
+                "level": 2,
+                "field": "Other Tech"
+            },
+            {
+                "skill": "PHP",
+                "level": 2,
+                "field": "Backend"
+            },
+            {
+                "skill": "Linux bash",
+                "level": 2,
+                "field": "System Programming"
+            },
+            {
+                "skill": "MS DOS",
+                "level": 2,
+                "field": "System Programming"
+            },
+            {
+                "skill": "Windows PowerShell",
+                "level": 2,
+                "field": "System Programming"
+            },
+            {
+                "skill": "Assembly",
+                "level": 4,
+                "field": "System Programming"
+            },
+            {
+                "skill": "Embedded systems",
+                "level": 4,
+                "field": "System Programming"
+            },
+            {
+                "skill": "Tinkercad",
+                "level": 4,
+                "field": "IoT"
+            },
+            {
+                "skill": "Cisco Packet Tracer",
+                "level": 3,
+                "field": "IoT"
+            },
+            {
+                "skill": "Internet of Things (IoT)",
+                "level": 2,
+                "field": "IoT"
+            },
+            {
+                "skill": "Multithreading and Parallel Programming",
+                "level": 2,
+                "field": "System Programming"
+            },
+            {
+                "skill": "Zbrush",
+                "level": 5,
+                "field": "3D"
+            },
+            {
+                "skill": "RizomUV",
+                "level": 5,
+                "field": "3D"
+            },
+            {
+                "skill": "Topogun 2",
+                "level": 4,
+                "field": "3D"
+            },
+            {
+                "skill": "Substance Painter",
+                "level": 4,
+                "field": "3D"
+            },
+            {
+                "skill": "Marmoset Toolbag 3",
+                "level": 4,
+                "field": "3D"
+            },
+            {
+                "skill": "Autodesk 3ds Max",
+                "level": 3,
+                "field": "3D"
+            }
         ]
-        
     },
     "languages": [
         {
@@ -313,7 +620,12 @@
                 "ua": "Таймер Pomodoro",
                 "en": "Pomodoro timer"
             },
-            "technologies": ["JavaScript", "React Native", "Expo", "Vibration API"],
+            "technologies": [
+                "JavaScript",
+                "React Native",
+                "Expo",
+                "Vibration API"
+            ],
             "img": "/pomodoro-timer.png",
             "date": "2022-04-21",
             "link": "https://snack.expo.dev/@antoninazz/pomodoro-timer"
@@ -323,7 +635,13 @@
                 "ua": "Браузер фільмів",
                 "en": "Movie Browser"
             },
-            "technologies": ["JavaScript", "React Native", "Expo", "React Navigation", "Open Movie Database API"],
+            "technologies": [
+                "JavaScript",
+                "React Native",
+                "Expo",
+                "React Navigation",
+                "Open Movie Database API"
+            ],
             "img": "/movie-browser.png",
             "date": "2022-05-12",
             "link": "https://snack.expo.dev/@antoninazz/movie-browser"
@@ -333,7 +651,13 @@
                 "ua": "Поточна погода",
                 "en": "Current Weather"
             },
-            "technologies": ["JavaScript", "React Native", "Expo", "OpenWeather API", "Expo Location"],
+            "technologies": [
+                "JavaScript",
+                "React Native",
+                "Expo",
+                "OpenWeather API",
+                "Expo Location"
+            ],
             "img": "/current-weather.png",
             "date": "2022-05-20",
             "link": "https://snack.expo.dev/@antoninazz/current-weather"
@@ -343,7 +667,13 @@
                 "ua": "Бульбашковий рівень",
                 "en": "Bubble Level"
             },
-            "technologies": ["JavaScript", "React Native", "Expo", "Expo Sensors", "Expo Location"],
+            "technologies": [
+                "JavaScript",
+                "React Native",
+                "Expo",
+                "Expo Sensors",
+                "Expo Location"
+            ],
             "img": "/waterpas.jpg",
             "date": "2022-05-23",
             "link": "https://snack.expo.dev/@antoninazz/waterpas"
@@ -353,7 +683,12 @@
                 "ua": "Список справ",
                 "en": "To-Do List App"
             },
-            "technologies": ["JavaScript", "React Native", "Expo", "Firebase Realtime Database"],
+            "technologies": [
+                "JavaScript",
+                "React Native",
+                "Expo",
+                "Firebase Realtime Database"
+            ],
             "img": "/to-do.png",
             "date": "2022-06-01",
             "link": "https://snack.expo.dev/@antoninazz/to-do-list-app"
@@ -363,7 +698,12 @@
                 "ua": "Геометричні фігури",
                 "en": "Geometry Figures App"
             },
-            "technologies": ["JavaScript", "React Native", "Expo", "React Native SVG"],
+            "technologies": [
+                "JavaScript",
+                "React Native",
+                "Expo",
+                "React Native SVG"
+            ],
             "img": "/geometry-figures-app.png",
             "date": "2022-06-15",
             "link": "https://snack.expo.dev/@antoninazz/geometry-figures-app"
@@ -373,7 +713,13 @@
                 "ua": "Інформер валют",
                 "en": "Currency Informer"
             },
-            "technologies": ["JavaScript", "React Native", "Expo", "React Navigation", "National Bank of Ukraine's API"],
+            "technologies": [
+                "JavaScript",
+                "React Native",
+                "Expo",
+                "React Navigation",
+                "National Bank of Ukraine's API"
+            ],
             "img": "/currency-informer.png",
             "date": "2022-05-04",
             "link": "https://snack.expo.dev/@antoninazz/currency-informer"
@@ -383,7 +729,11 @@
                 "ua": "Депозитний калькулятор",
                 "en": "Deposit Calculator"
             },
-            "technologies": ["JavaScript", "React Native", "Expo"],
+            "technologies": [
+                "JavaScript",
+                "React Native",
+                "Expo"
+            ],
             "img": "/deposit-calculator.png",
             "date": "2022-06-19",
             "link": "https://snack.expo.dev/@antoninazz/deposit-calculator"
@@ -393,7 +743,11 @@
                 "ua": "Калькулятор електроенергії",
                 "en": "Electricity Calculator"
             },
-            "technologies": ["JavaScript", "React Native", "Expo"],
+            "technologies": [
+                "JavaScript",
+                "React Native",
+                "Expo"
+            ],
             "img": "/electricity-calculator.png",
             "date": "2022-06-20",
             "link": "https://snack.expo.dev/@antoninazz/electricity-calculator"
@@ -403,7 +757,12 @@
                 "ua": "Конвертер одиниць",
                 "en": "Unit Converter"
             },
-            "technologies": ["JavaScript", "React Native", "Expo", "React Navigation"],
+            "technologies": [
+                "JavaScript",
+                "React Native",
+                "Expo",
+                "React Navigation"
+            ],
             "img": "/unit-converter.png",
             "date": "2022-05-22",
             "link": "https://snack.expo.dev/@antoninazz/unit-converter-v3"
@@ -413,7 +772,11 @@
                 "ua": "Список справ",
                 "en": "To-Do List App"
             },
-            "technologies": ["JavaScript", "React", "HTML"],
+            "technologies": [
+                "JavaScript",
+                "React",
+                "HTML"
+            ],
             "img": "/to-do-react.png",
             "date": "2022-02-24",
             "link": "https://github.com/AntoninaZz/ToDo_react"
@@ -423,7 +786,11 @@
                 "ua": "Адаптивний вебсайт",
                 "en": "Responsive Website"
             },
-            "technologies": ["HTML", "CSS", "Bootstrap"],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Bootstrap"
+            ],
             "img": "/bootstrap.png",
             "date": "2022-06-07",
             "link": "https://github.com/AntoninaZz/PracticeProject1"
@@ -433,7 +800,11 @@
                 "ua": "Інтерактивна галерея рецептів",
                 "en": "Interactive Gallery of Confectionery Recipes"
             },
-            "technologies": ["HTML", "CSS", "Responsive Design"],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Responsive Design"
+            ],
             "img": "/cakes.png",
             "date": "2021-11-05",
             "link": "https://github.com/AntoninaZz/Cakes"
@@ -443,7 +814,13 @@
                 "ua": "Вебсайт-портфоліо",
                 "en": "Portfolio Website"
             },
-            "technologies": ["JavaScript", "React", "Vite", "HTML", "CSS"],
+            "technologies": [
+                "JavaScript",
+                "React",
+                "Vite",
+                "HTML",
+                "CSS"
+            ],
             "img": "/portfolio.png",
             "date": "2025-02-20",
             "link": "https://github.com/AntoninaZz/AntoninaZz.github.io"
@@ -453,7 +830,11 @@
                 "ua": "Вебзастосунок для створення табів для сопілки",
                 "en": "Sopilka Tab Creator"
             },
-            "technologies": ["JavaScript", "HTML", "CSS"],
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
             "img": "/sopilka-tab-creator.png",
             "date": "2023-05-06",
             "link": "https://github.com/AntoninaZz/SopilkaTabCreator"
@@ -463,7 +844,14 @@
                 "ua": "Контактна форма МІСТ",
                 "en": "MIST Feedback Form"
             },
-            "technologies": ["JavaScript", "React", "React Hook Form", "CSS", "Google Apps Script", "HTML"],
+            "technologies": [
+                "JavaScript",
+                "React",
+                "React Hook Form",
+                "CSS",
+                "Google Apps Script",
+                "HTML"
+            ],
             "img": "/mist.png",
             "date": "2023-05-08",
             "link": "https://github.com/MaksymHorbachevsky/mist-form"
@@ -473,7 +861,16 @@
                 "ua": "API кінотеатру",
                 "en": "Cinema Booking System"
             },
-            "technologies": ["ASP.NET", "Entity Framework", "C#", "JWT Authentication", "AutoMapper", "Swagger", "SQL", "Microsoft SQL Server"],
+            "technologies": [
+                "ASP.NET",
+                "Entity Framework",
+                "C#",
+                "JWT Authentication",
+                "AutoMapper",
+                "Swagger",
+                "SQL",
+                "Microsoft SQL Server"
+            ],
             "img": "/cinema.png",
             "date": "2024-05-15",
             "link": "https://github.com/dembytskaanna/NetPractice"
@@ -483,7 +880,13 @@
                 "ua": "Помічник орхомана",
                 "en": "Orchid Enthusiast Assistant"
             },
-            "technologies": ["JavaScript", "React Native", "Expo", "React Navigation", "Expo Router"],
+            "technologies": [
+                "JavaScript",
+                "React Native",
+                "Expo",
+                "React Navigation",
+                "Expo Router"
+            ],
             "img": "/orchid-assistant.png",
             "date": "2024-12-16",
             "link": "https://github.com/AntoninaZz/diploma"
@@ -493,7 +896,11 @@
                 "ua": "Гра П'ятнашки",
                 "en": "Fifteen Puzzle Game"
             },
-            "technologies": ["C#", ".NET", "Console App"],
+            "technologies": [
+                "C#",
+                ".NET",
+                "Console App"
+            ],
             "img": "/fifteen.png",
             "date": "2020-10-04",
             "link": "https://github.com/AntoninaZz/Fifteen"
@@ -503,7 +910,12 @@
                 "ua": "Змійка",
                 "en": "Snake Game"
             },
-            "technologies": ["C#", ".NET", "Console App", "OOP"],
+            "technologies": [
+                "C#",
+                ".NET",
+                "Console App",
+                "OOP"
+            ],
             "img": "/snake.png",
             "date": "2020-11-20",
             "link": "https://github.com/AntoninaZz/snake"
@@ -513,7 +925,11 @@
                 "ua": "Конвертер температури",
                 "en": "Temperature Converter"
             },
-            "technologies": ["C#", "Windows Forms", ".NET"],
+            "technologies": [
+                "C#",
+                "Windows Forms",
+                ".NET"
+            ],
             "img": "/temperature-converter.png",
             "date": "2020-10-17",
             "link": "https://github.com/AntoninaZz/TemperatureConverter"
@@ -523,7 +939,11 @@
                 "ua": "Застосунок для обробки масивів",
                 "en": "Array Processing Application"
             },
-            "technologies": ["C#", "Windows Forms", ".NET"],
+            "technologies": [
+                "C#",
+                "Windows Forms",
+                ".NET"
+            ],
             "img": "/array-app.png",
             "date": "2020-10-23",
             "link": "https://github.com/AntoninaZz/matrix"
@@ -533,7 +953,11 @@
                 "ua": "Пакет підписок та сповіщень Joomla",
                 "en": "Joomla Subscription and Notifications Package"
             },
-            "technologies": ["PHP", "CSS", "Joomla"],
+            "technologies": [
+                "PHP",
+                "CSS",
+                "Joomla"
+            ],
             "img": "/joomla.png",
             "date": "2022-09-20",
             "link": "https://github.com/AntoninaZz/pkg_subscription_and_notifications"
@@ -543,7 +967,12 @@
                 "ua": "Будильник",
                 "en": "Alarm Clock"
             },
-            "technologies": ["C#", "Windows Forms", ".NET", "Windows API"],
+            "technologies": [
+                "C#",
+                "Windows Forms",
+                ".NET",
+                "Windows API"
+            ],
             "img": "/alarm-clock.png",
             "date": "2021-04-15",
             "link": "https://github.com/AntoninaZz/alarm-clock"
@@ -553,7 +982,10 @@
                 "ua": "Будильник",
                 "en": "Alarm Clock"
             },
-            "technologies": ["Assembly", "DOS"],
+            "technologies": [
+                "Assembly",
+                "DOS"
+            ],
             "img": "/alarm-clock-assembly.png",
             "date": "2021-03-18",
             "link": "https://github.com/AntoninaZz/alarm-clock-assembly"
@@ -563,7 +995,16 @@
                 "ua": "Гра на пам'ять My Mind",
                 "en": "My Mind Memory Game"
             },
-            "technologies": ["JavaScript", "React Native", "Expo", "AsyncStorage", "TypeScript", "Appsflyer", "Firebase", "OneSignal"],
+            "technologies": [
+                "JavaScript",
+                "React Native",
+                "Expo",
+                "AsyncStorage",
+                "TypeScript",
+                "Appsflyer",
+                "Firebase",
+                "OneSignal"
+            ],
             "img": "/my-mind.jpg",
             "date": "2025-03-14",
             "link": "https://github.com/AntoninaZz/my-mind"
@@ -573,7 +1014,17 @@
                 "ua": "Магазин в'язаних гачком іграшок ручної роботи",
                 "en": "E-commerce Handmade Crochet Toys Store"
             },
-            "technologies": ["NextJS", "React", "TypeScript", "Tailwind CSS", "Vercel", "MongoDB", "Clerk", "LiqPay", "Nova Poshta API"],
+            "technologies": [
+                "NextJS",
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "Vercel",
+                "MongoDB",
+                "Clerk",
+                "LiqPay",
+                "Nova Poshta API"
+            ],
             "img": "/hm-shop.jpg",
             "date": "2025-11-04",
             "link": "https://github.com/AntoninaZz/hm-shop"
@@ -583,7 +1034,21 @@
                 "ua": "Aдміністративна панель для керування інтернет-магазином",
                 "en": "Administrative panel for managing an e-commerce store"
             },
-            "technologies": ["NextJS", "React", "TypeScript", "Tailwind CSS", "Vercel", "MongoDB", "Clerk", "LiqPay", "Nova Poshta API", "Node.js", "ShadCN/UI", "Zod", "Chart.js"],
+            "technologies": [
+                "NextJS",
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "Vercel",
+                "MongoDB",
+                "Clerk",
+                "LiqPay",
+                "Nova Poshta API",
+                "Node.js",
+                "ShadCN/UI",
+                "Zod",
+                "Chart.js"
+            ],
             "img": "/hm-shop-admin.jpg",
             "date": "2025-11-04",
             "link": "https://github.com/AntoninaZz/hm-shop-admin"
