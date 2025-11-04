@@ -1011,8 +1011,8 @@
         },
         {
             "title": {
-                "ua": "Магазин іграшок ручної роботи",
-                "en": "E-commerce Handmade Toys Store"
+                "ua": "Інтернет-магазин",
+                "en": "E-commerce Store"
             },
             "technologies": [
                 "NextJS",
@@ -1031,8 +1031,8 @@
         },
         {
             "title": {
-                "ua": "Панель керування онлайн-магазином",
-                "en": "Admin panel for an e-commerce store"
+                "ua": "Панель керування магазином",
+                "en": "E-commerce admin panel"
             },
             "technologies": [
                 "NextJS",
